@@ -1,0 +1,50 @@
+#portada.headerFaqs{
+    position: relative;
+    background-color: black; 
+    font-family: DIN-regular, 'open Sans', sans-serif;
+   
+}
+
+
+
+
+.headerImagenFaqs{
+    position: absolute;
+    z-index: -300;
+    width: 100%;
+    height: 100%;
+    background-image: url("../media/img/IMG-20190714-WA0011.jpg");
+    background-position: center;
+    background-size:cover;
+    opacity: 0.4;
+    
+}
+
+.faqsSection{
+    background: linear-gradient(0deg, rgba(25,25,25,0.5466561624649859) 0%, rgba(248,249,250,1) 25%, rgba(248,249,250,1) 75%, rgba(25,25,25,0.5578606442577031) 100%);    
+
+
+}
+
+.card-header{
+    
+    background-color: #191919;
+}
+
+.card-header h2 button{
+    background-color: #191919;
+    color: white;
+    transition: 0.5s;
+
+}
+.card-header h2 button:hover{
+    color:$color1;
+}
+
+.btn.focus, .btn:focus{
+    box-shadow: 0 0 0 0.2rem $color1;
+}
+
+.tittleFaqs{
+    color: $color3;
+}

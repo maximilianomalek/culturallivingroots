@@ -1,0 +1,94 @@
+/*Cultura CLR */
+/* Videos de eventos */
+
+#culturaClr{
+    background-color: #191919;
+    position: relative;
+    grid-area: culturaClr;
+    overflow: hidden;
+    padding: 1vw 0 1vw 0;
+    font-family: DIN-regular, 'open Sans', sans-serif;
+        h3{
+            color: #f8f9fa;
+        }
+}
+
+
+
+.videoEventos{
+    background-color: #191919;
+        div div{
+            border: 3px solid white;
+            box-sizing: border-box;
+            box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.301), -3px 3px 1px rgba(0, 0, 0, 0.5), -4px 4px 2px rgba(0, 0, 0, 0.301);        
+            a img{
+                opacity: .5;
+            }
+            a p i{
+                color: #f8f9fac2;
+            }
+            a:hover p i{
+                color: #a756387a;
+                transition: .5s;            
+            }
+            a:hover img{
+                border: 4px solid #191919;
+                transition: .5s;
+                opacity: .8;            
+            }
+        }
+
+}
+
+.fancybox__slide{
+    padding:0;
+}
+
+
+
+
+
+/* Seccion artistasClr */
+
+#artistasClr{
+    grid-area: artistasClr;
+    background: rgb(25,25,25);
+    background: linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(248,249,250,1) 14%);
+    font-family: DIN-regular, 'open Sans', sans-serif;
+        h6{
+            letter-spacing: 1px;
+            color: $color3;
+        }
+}
+
+.borderIframeYoutube{
+    border: 4px solid $color3;
+    filter: drop-shadow(8px 8px 10px #191919);
+
+}
+
+.artistasNav li a{
+    color: $color3;
+        &:hover{
+            background-color: #a756387a;
+            transition: .5s;
+        }
+}
+
+img.imgArtista{
+    width: 255px;
+}
+.artistasNav .nav-link.active{
+    color: $color1;
+}
+.redesArtistas a{
+    color: $color3;
+    &:hover{
+        color:$color1;
+        transition: 0.5s; 
+    }
+}
+
+
+
+

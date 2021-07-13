@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Descubrí una nueva forma de vivenciar la música. Conciertos en vivo combinados con la calidez del hogar. En Vivo, En Casa. Cultural Living Roots.">
+    <meta name="keywords" content="RECITAL, ARTISTAS, MUSICA, EVENTOS, CALIDEZ, INTIMO, COMPARTIR, MUSICOS">
+    <script src="https://kit.fontawesome.com/830f0dbb09.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="media/logos/image.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Cultural Living Roots | Conciertos en vivo, en casa.</title>
+</head>
+
+<body>
+    <div id="gridLayout">
+        <!--2 Header, incluye: Barra de navegacion, Logo, Redes sociales.-->
+        <section id="portada">
+            <!--2.1 Barra de navegación -->
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand col-2 a-imgLogo" href="index.html">
+                        <img class="imgLogo" src="media\logos/logo2CLR-02.png" alt="Logo-CLR">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between bgBarnav" id="navbarNavDropdown">
+                        <ul class="navbar-nav col-12 col-lg-8 col-xl-8 text-center text-lg-left text-xl-left justify-content-around pl-3 pl-xl-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#proximosEventos">Proximos eventos <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Cultura CLR
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item col-6 offset-6 col-sm-6 col-md-6 offset-sm-6 offset-md-6 col-lg-12 col-xl-12 offset-lg-0 offset-xl-0" href="#culturaClr" >Eventos recientes</a>
+                                    <a class="dropdown-item col-6 offset-6 col-sm-6 col-md-6 offset-sm-6 offset-md-6 col-lg-12 col-xl-12 offset-lg-0 offset-xl-0" href="#artistasClr">Artistas CLR</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#raicesClr">Raices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="convertite-en-clr.html">Convertite en CLR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faqs.html">FAQs</a>
+                            </li>
+                        </ul>                        
+                        <ul class="redes row list-unstyled col-12 col-xl-2 col-lg-2 m-auto justify-content-xl-end justify-content-lg-end justify-content-center align-items-end">
+                            <li>
+                                <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/CulturalLivingRoots">
+                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="mailto:culturallivingroots@gmail.com">
+                                    <i class="fas fa-envelope fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li class="wow animate__animated animate__bounce animate__delay-1s">
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/culturallivingroots/?utm_source=ig_profile_share&igshid=14k2p1bv2ckw7">
+                                    <i class="fab fa-instagram fa-2x" ></i>
+                                </a>
+                            </li>
+                        </ul>        
+                    </div>
+                </nav>        
+            </div>
+            <!-- 3.1 Portada con video de fondo -->
+            <div class="contenedor-portada">
+                <!-- 3.1.1 Video de fondo -->
+                <div class="wow animate__animated animate__fadeIn">
+                    <video muted autoplay loop class="videoHeader2" poster="media/logos/image.png">
+                        <source src="media\videos/culturallivingroots_cortado.mp4" type="video/mp4">
+                        <source src="media\videos/culturallivingroots_cortado.ogv" type="video/ogv">
+                        <source src="media\videos/culturallivingroots_cortado.webm" type="video/webm">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <video muted autoplay loop class="videoHeader1" poster="media/logos/image.png">
+                        <source src="media\videos/culturallivingroots_cortado_res16.9.mp4" type="video/mp4">
+                        <source src="media\videos/culturallivingroots_cortado_res16.9.ogv" type="video/ogv">
+                        <source src="media\videos/culturallivingroots_cortado_res16.9.webm" type="video/webm">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <video muted autoplay loop class="videoHeader3" poster="media/logos/image.png">
+                        <source src="media\videos/culturallivingroots_cortado_SparkVideo.mp4" type="video/mp4">
+                        <source src="media\videos/culturallivingroots_cortado_SparkVideo.ogv" type="video/ogv">
+                        <source src="media\videos/culturallivingroots_cortado_SparkVideo.webm" type="video/webm">
+                        Tu navegador no soporta el video.
+                    </video>
+                </div>
+                <!--3.1.2 Texto por encima del video con link.  -->
+                <div class="portada">
+                    <h3>Disfrutá una nueva forma de vivenciar la música</h3>
+                    <h1>
+                        Cultural Living <br>
+                        Roots
+                    </h1>
+                    <a target="_bank" rel="noopener noreferrer" href="https://www.eventbrite.com.ar/o/cultural-living-roots-18172326028" class="boton"><i class="fas fa-ticket-alt"></i>TICKETS</a>
+                </div>
+            </div>
+        </section>
+        <!-- 3- Secciones principales -->
+            <!-- 3.2 Próximos eventos -->           
+        <header id="proximosEventos" class="py-3 container-fluid d-flex align-items-center">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 pt-2" data-aos="fade-up">
+                    <img class="w-75 mx-auto d-block" src="media\img/IMG-20190613-WA0085 480px.jpg" alt="imagen-proximo-evento">
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 text-center infoProxEvento" data-aos="fade-up">
+                    <h1 class="titulo">Próximo evento</h1>
+                    <h2>Edicion invierno - Moishe House, Buenos Aires - 13 de Julio, 2021</h2>
+                    <hr>
+                    <p>Evento a realizarse en el antiguo barrio de Villa Crespo, envuelto en la calidez de una casona del
+                        siglo XX, amoldado al estilo CLR.
+                    </p>
+                    <p>En esta ocasion, tenemos el placer de recibir artistas de elite con todo el color que identifica a
+                        CLR. 
+                    </p>
+                    <p>¡Los esperamos!</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com.ar/o/cultural-living-roots-18172326028">
+                        <i class="fas fa-ticket-alt"></i>TICKETS
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- 3.3 Seccion Cultura CLR -->
+        <section id="culturaClr">
+            <!-- 3.3.1 Título de sección -->
+            <div data-aos="fade-up">
+                <h3 class="pl-lg-3 text-center text-lg-left titulo">Eventos recientes...</h3>
+                <!-- <h3>Videos recientes</h3> -->
+            </div>
+            <!-- 3.3.2 Barra horizontal de videos -->
+            <div class="container-fluid videoEventos" data-aos="fade-up">
+                <div class="row py-3">
+                    <div class="col-12 col-sm-6 col-lg-3 rounded-circle p-0">
+                        <a rel="noopener noreferrer" class="d-flex flex-column align-items-center justify-content-center rounded-circle" data-fancybox data-type="box" href="https://youtu.be/WaE1EPqaEM0">
+                            <img class="w-100 rounded-circle" src="media/img/IMG-20190613-WA0085.jpg" alt="Evento-invierno">
+                            <!-- <h3>Casa Hilel <br>14 Dic, 2019</h3> -->
+                            <p class="position-absolute"><i class="fas fa-play fa-3x"></i></p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 rounded-circle p-0">
+                        <a rel="noopener noreferrer" class="d-flex flex-column align-items-center justify-content-center rounded-circle" data-fancybox data-type="box" href="https://youtu.be/XlDTcH9WbzI">
+                            <img class="w-100 rounded-circle" src="media/img/Edicion otoño.jpg" alt="Evento-otoño">
+                            <!-- <h3>Casa Hilel <br>14 Dic, 2019</h3> -->
+                            <p class="position-absolute"><i class="fas fa-play fa-3x"></i></p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 rounded-circle p-0">
+                        <a rel="noopener noreferrer" class="d-flex flex-column align-items-center justify-content-center rounded-circle" data-fancybox data-type="box" href="https://youtu.be/eIPeXZbBqMY">
+                            <img class="w-100 rounded-circle" src="media/img/primer evento.jpg" alt="Primer-Evento">
+                            <!-- <h3>Casa Hilel <br>14 Dic, 2019</h3> -->
+                            <p class="position-absolute"><i class="fas fa-play fa-3x"></i></p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 rounded-circle p-0">
+                        <a rel="noopener noreferrer" class="d-flex flex-column align-items-center justify-content-center rounded-circle" data-fancybox data-type="box" href="https://youtu.be/XlDTcH9WbzI">
+                            <img class="w-100 rounded-circle" src="media/img/Edicion otoño.jpg" alt="Evento Otoño">
+                            <!-- <h3>Casa Hilel <br>14 Dic, 2019</h3> -->
+                            <p class="position-absolute"><i class="fas fa-play fa-3x"></i></p>
+                        </a>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <!-- 3.5 Sección de Artistas CLR -->
+        <section id="artistasClr">
+            <div class="text-center" data-aos="fade-up">
+                <h6 class="titulo">Artistas CLR</h6>
+            </div>
+            <!-- 3.5.1 Reproductor de artistas -->
+            <ul data-aos="fade-up" class="nav nav-tabs nav-justified align-items-lg-end artistasNav font-weight-bold flex-column flex-lg-row" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="snusbrothers-tab" data-toggle="tab" href="#snusbrothers" role="tab" aria-controls="home" aria-selected="true">Snus Brothers</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="marianovillano-tab" data-toggle="tab" href="#marianovillano" role="tab" aria-controls="profile" aria-selected="false">Mariano Villano</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="victoriapalermo-tab" data-toggle="tab" href="#victoriapalermo" role="tab" aria-controls="contact" aria-selected="false">Victoria Palermo</a>
+                </li>
+                
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="matiasnaza-tab" data-toggle="tab" href="#matiasnaza" role="tab" aria-controls="contact" aria-selected="false">Matias Naza</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="whitehasblues-tab" data-toggle="tab" href="#whitehasblues" role="tab" aria-controls="contact" aria-selected="false">White Has Blues</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="solmontero-tab" data-toggle="tab" href="#solmontero" role="tab" aria-controls="contact" aria-selected="false">Sol Montero</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="sebastianmatiassi-tab" data-toggle="tab" href="#sebastianmatiassi" role="tab" aria-controls="contact" aria-selected="false">Sebastián Matiassi</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="covernautas-tab" data-toggle="tab" href="#covernautas" role="tab" aria-controls="contact" aria-selected="false">Covernautas</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="keilaespeche-tab" data-toggle="tab" href="#keilaespeche" role="tab" aria-controls="contact" aria-selected="false">Keila Espeche</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="countrygruñon-tab" data-toggle="tab" href="#countrygruñon" role="tab" aria-controls="contact" aria-selected="false">Country Gruñón</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent" data-aos="fade-up">
+                <div class="tab-pane fade show active container-fluid mb-5 mt-3 pb-5" id="snusbrothers" role="tabpanel" aria-labelledby="snusbrothers-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/x-o0L_fTk78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            </div>
+                            </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/descarga.png" alt="">
+                            <p class="col-10 m-auto">
+                                <b>Snus Brothers</b> es un dúo que traduce la música tradicional de los países nórdicos (Suecia, Noruega, Finlandia, Islandia y Dinamarca) a través de una visión contemporánea y la fusiona con composiciones y arreglos propios
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/SnusBrothersBand/">
+                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://open.spotify.com/artist/0PHxeX5hjcTGOhsTsBU7nP?si=0z4kvdjoSOOroAfuujyf4w&dl_branch=1">
+                                    <i class="fab fa-spotify fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCWi0ZPeIFcA_3uEX5cynDsw">
+                                    <i class="fab fa-youtube fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li class="wow animate__animated animate__bounce animate__delay-1s">
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/snusbrothersband/?hl=es">
+                                    <i class="fab fa-instagram fa-2x" ></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade container-fluid mb-5 mt-3 pb-5" id="marianovillano" role="tabpanel" aria-labelledby="marianovillano-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jy1HbPnF-lQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            </div>
+                            </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/marianovillano.jpg" alt="">
+                            <p class="col-10 m-auto">
+                                <b>Mariano Villano</b> comenzó su carrera musical a los veinte años, cuando decidió aprender a tocar guitarra y componer canciones. En su corta trayectoria pasó por el Estudio Gustavo Cerati de Radio Metro 95.1 para una entrevista con Jason Mayne; grabó su primer E.P 6 A.M (2019); fue invitado como acto de apertura para el San Pedro Country Music Festival (El festival de música country más importante de Sudamérica) y el Santa Anita Country Music Festival, en Entre Ríos.
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/MarianoVillanoOK/">
+                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://open.spotify.com/artist/76djdAVwpBAZ85eKeZWleq?si=YaTZBgxLQVaGIFnV7oc65Q&dl_branch=1">
+                                    <i class="fab fa-spotify fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/c/MarianoVillano">
+                                    <i class="fab fa-youtube fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/mariano_villano/?hl=es-la">
+                                    <i class="fab fa-instagram fa-2x"></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade container-fluid mb-5 mt-3 pb-5" id="victoriapalermo" role="tabpanel" aria-labelledby="victoriapalermo-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/nrDX65oCR2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            </div>
+                            </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/vitoriapalermo.jpg" alt="">
+                            <p class="col-10 m-auto">
+                                <b>Victoria Palermo</b> es cantautora y compositora argentina, con un proyecto solista independiente.Su música tiene notas de pop y folk con influencias del soul, bossa e indie. Entre sus principales influencias están Amy Winehouse, Charly García, Bon Iver, Alicia Keys, Nathy Peluso y Dave Matthews Band.
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://open.spotify.com/artist/2CqS6BrMClE4aW4GjgHUEg?si=ORHqmPseQ6i6FAC33GPbdQ&dl_branch=1">
+                                    <i class="fab fa-spotify fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCF0x0u-PLIEYZmCiVx_2Jpw">
+                                    <i class="fab fa-youtube fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/vicotapalermo/?hl=es-la">
+                                    <i class="fab fa-instagram fa-2x"></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade container-fluid mb-5 mt-3 pb-5" id="matiasnaza" role="tabpanel" aria-labelledby="matiasnaza-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/CxNcW43T0JQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            </div>
+                            </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/matiasnaza.jpg" alt="">
+                            <p class="col-10 m-auto">
+                                <b>Matias Naza</b> es un compositor, cantante y guitarrista de Argentina.
+                                Actualmente presentando “Solo”, su segundo disco solista, disponible también en Spotify y todas las plataformas digitales.
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/matiasnaza">
+                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://open.spotify.com/artist/1VOY6214OjdBWo4FrzZaZ7?si=VmoDELVqT1qTZetI80QvFQ&dl_branch=1">
+                                    <i class="fab fa-spotify fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/user/matiasnaza">
+                                    <i class="fab fa-youtube fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/matiasnaza/?hl=es-la">
+                                    <i class="fab fa-instagram fa-2x" ></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade container-fluid mb-5 mt-3 pb-5" id="whitehasblues" role="tabpanel" aria-labelledby="whitehasblues-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/rN5Ke3G8eQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            </div>
+                            </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/whitehatblues.jpg" alt="">
+                            <p class="col-10 m-auto">
+                                <b>White Hat Blues</b> es un compositor, cantante y guitarrista de Argentina. Podes escucharlo en todas sus redes!
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCZoH3aaGD1s14IiLJnsva6w">
+                                    <i class="fab fa-youtube fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/white_hat_blues/">
+                                    <i class="fab fa-instagram fa-2x" ></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade container-fluid mb-5 mt-3 pb-5" id="solmontero" role="tabpanel" aria-labelledby="solmontero-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Fe8Fqbfd65w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            </div>
+                            </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/solmontero.jpg" alt="">
+                            <p class="col-10 m-auto">
+                                <b>Sol Montero</b> es una Cantante, actriz y entrenadora vocal. Actualmente directora en "RyS formación de artistas" y vocal coach en "ser otro mundo"
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/sol.montero.12">
+                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://open.spotify.com/artist/3JPoQo8bfBbOtzVs09ChoX?si=QW3OQU8AQBa-PflfHypnPg&dl_branch=1">
+                                    <i class="fab fa-spotify fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCiBFI6N3f97udqUO6oSXwAQ">
+                                    <i class="fab fa-youtube fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/sol_monteroo/">
+                                    <i class="fab fa-instagram fa-2x" ></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade container-fluid mb-5 mt-3 pb-5" id="sebastianmatiassi" role="tabpanel" aria-labelledby="sebastianmatiassi-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/5mPgCnBumPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            </div>
+                            </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/sebastianmatiassi.jpg" alt="">
+                            <p class="col-10 m-auto">
+                                <b>Sebastian Matiassi</b> es un compositor, cantante e interprete de Argentina. Podes escucharlo en todas sus redes!
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/Sebastian-Mattiassi-canta-101463064655173/videos/">
+                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://open.spotify.com/artist/6ZPaUuSvfUR7vfvATH8uki?si=acBn5X5PSJ6XryJ__nR7JA&dl_branch=1">
+                                    <i class="fab fa-spotify fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/sebastianmattiassi/?hl=es">
+                                    <i class="fab fa-instagram fa-2x" ></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade container-fluid mb-5 mt-3 pb-5" id="covernautas" role="tabpanel" aria-labelledby="covernautas-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/hG5pgqh3SzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            </div>
+                            </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/covernautas.jpg" alt="">
+                            <p class="col-10 m-auto">
+                                <b>Covernautas</b> es un trío acústico de música Folk, Country y Blues que nace a fines de 2007 en Buenos Aires , Argentina. La formación es de 2 guitarras y 3 voces, interpretando temas de varios artistas nacionales e Internacionales.
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer"  target="_blank" href="https://es-la.facebook.com/covernautas.acustico">
+                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/user/covernautas">
+                                    <i class="fab fa-youtube fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/covernautas/">
+                                    <i class="fab fa-instagram fa-2x" ></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade container-fluid mb-5 mt-3 pb-5" id="keilaespeche" role="tabpanel" aria-labelledby="keilaespeche-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/XlDTcH9WbzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/keyespeche.jpg" alt="">
+                            <p class="col-10 m-auto">
+                                <b>Key Espeche</b> es una cantante Argentina actualmente participando en "MINADAR". Podes escucharla en todas sus redes!
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/Key-Espeche-112816827137373/">
+                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://open.spotify.com/artist/3VSWORCw6zhN5Juw1xSbqF?si=FDUh_t4JR8yF0SFvu3RqQQ&dl_branch=1">
+                                    <i class="fab fa-spotify fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCSM_4hFHqAKxPZ-csfjfbXg">
+                                    <i class="fab fa-youtube fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/keyespeche/?hl=es-la">
+                                    <i class="fab fa-instagram fa-2x" ></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade container-fluid mb-5 mt-3 pb-5" id="countrygruñon" role="tabpanel" aria-labelledby="countrygruñon-tab">
+                    <div class="row mb-5 mt-3">
+                        <div class="col-12 col-lg-7 text-center pt-3 mb-5">
+                            <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/WaE1EPqaEM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            </div>
+                            </div>
+                        <div class="col-lg-5 col-12 text-center mt-1 mb-5">
+                            <img class="rounded-circle shadow imgArtista" src="media/img/countrygruñon.jpeg" alt="">
+                            <p class="col-10 m-auto">
+                                <b>Country Gruñon</b> es una banda de amigos conformada hace 4 años. Son de Olivos y hacen temas propios y covers que pasean por el Country Blues, Folk, Bluegrass y Rockabilly. Hoy se están presentando por 4ta vez consecutiva en el SPCMF.
+                            </p>
+                            <ul class="redesArtistas row list-unstyled m-auto justify-content-center pt-3">
+                            <li>
+                                <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/countrygrunion">
+                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://open.spotify.com/artist/5hI94OFLUuQSk23pistSm4?si=Y-tsaCjMRY-LAX75RVsXRw&dl_branch=1">
+                                    <i class="fab fa-spotify fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UC3-90jXhSq-iKv2_7v2hKNQ">
+                                    <i class="fab fa-youtube fa-2x pr-2" ></i>
+                                </a>                        
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/countrygrunion/?hl=es-la">
+                                    <i class="fab fa-instagram fa-2x"></i>
+                                </a>
+                            </li>
+                        </ul>        
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </section>
+        <!-- 3.6 raices CLR, historia contada. -->
+        <section id="raicesClr" class="raicesClr">
+            <div class="raicesContainer" data-aos="flip-down">
+                <div class="descripcionRaices">
+                    <p class="titulo">Raices - Roots</p>
+                    <h6>¿como empezó todo?</h6>
+                    <hr>
+                    <h2> Somos un grupo de jovenes apasionados por la música, el estilo y calidez. Nuestros artistas convocados son profesionales de alto nivel y disfrutamos enormemente compartir el arte que transmiten. 
+                    En esta página encontraras muchos de
+                    ellos.
+                    </h2>  
+                    <h2>
+                         Nuestras propuestas vienen siempre de la mano
+                        de la profesionalización, calidez, y relajacion.
+                        Nuestro nombre, Cultural Living Roots, nos identifica en todo aspecto.
+                        Utilizamos un significado con un doble sentido. Jugamos con las palabras, de manera que, si lo intentamos llevar al español tiene un significado, y si lo
+                        leemos en ingles, otro. 
+                        Somos desectructurados, disfrutamos lo que hacemos.
+                        Por un lado, la definicion concreta de las palabras en ingles nos hace mostrar
+                        como intentamos mantener la llama encendida de la cultura y de nuestras
+                        raices. 
+                        Si nos corremos un poco del sentido literal, nos encontramos con
+                        palabras que tienen mucho significado en nuestros eventos. Los realizamos de la manera mas confortable y armoneosa posible, eso hace que el living de nuestro hogar, sea el lugar ideal. 
+                        ¡Sumate a nuestra familia! Disfrutá CLR
+                    </h2>
+                    <a rel="noopener noreferrer" target="_bank" href="https://www.eventbrite.com.ar/o/cultural-living-roots-18172326028" class="boton"><i class="fas fa-ticket-alt"></i>TICKETS</a>
+                </div>
+            </div>
+            <div class="flyerRaices" data-aos="fade-up">
+                <img class="imgRaices" src="media\img/fin de fiesta 540px.jpg" alt="imagen-proximo-evento">
+            </div>  
+        </section>
+        <!-- 4 Footer -->
+        <footer id="footer">
+            <div class="logoFooter">
+                <a href="index.html">
+                    <img class="imgLogoFooter" src="media\logos/logoCLR-02.png" alt="Logo-CLR">
+                </a>
+            </div>
+            <div class="contenedorFooter">
+                <div>
+                    <p><span>CLR</span> 2021/</p>
+                    <p>
+                        <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/culturallivingroots/">@Culturallivingroots</a>
+                    </p>   
+                </div>
+                <div class="mailto">
+                    <a rel="noopener noreferrer" target="_blank" href="mailto:culturallivingroots@gmail.com">
+                        <i class="far fa-envelope"></i>Contactanos
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="swipeUp">
+        <a href="#portada"><i class="fas fa-angle-up"></i></a>
+    </div>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+       new WOW().init();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>    
+</body>
+</html>

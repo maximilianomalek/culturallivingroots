@@ -1,0 +1,107 @@
+/* Seccion Roots - quienes somos */
+
+#raicesClr{
+    position: relative;
+    grid-area: raicesClr;
+    background-color: #191919;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1vw 0 1vw 0;
+    font-family: DIN-regular, 'open Sans', sans-serif;
+    letter-spacing: 1px;
+    @media only screen and (min-width: 992px){
+        flex-direction: row-reverse;
+    }
+}
+
+.raicesContainer{
+    position: relative;
+    background-color: #ffffff31;
+    border: 1px solid black;
+    width: 90%;
+    overflow: hidden;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5%;
+    margin-bottom: 5px;
+    @media only screen and (min-width: 1200px){
+        width: 50%;
+    }
+        
+}
+
+
+.flyerRaices{
+    max-width: 600px;
+    @media only screen and (min-width: 992px){
+        width: 49%;
+    }
+    .imgRaices{
+        width: 90%;
+        box-shadow: -2px 2px 0px rgba(221, 216, 216, 0.301), -3px 3px 1px rgba(221, 216, 216, 0.5), -4px 4px 2px rgba(0, 0, 0, 0.301);
+    
+    }
+
+}
+
+
+.descripcionRaices{
+    width: 90%;
+    display: inline-block;
+    color: white;
+    position: relative;
+    font-size: 8vw;
+    @media only screen and (min-width: 576px){
+        font-size: 5.5vw;
+    }
+    @media only screen and (min-width: 1200px){
+        font-size: 2.5vw;
+    }
+        h6{
+            font-size: .5em;
+            color:white;
+        }
+        h2{
+            font-size: .4em;
+            color: white;
+            text-align: justify;
+        }
+        p{
+            color: #f8f9fa;
+        }
+        hr{
+            display: inline-block;
+            margin: 17px 0;
+            width: 70%;
+            text-align: center;
+            height: 5px;
+            background-color: $color1;
+        }
+        a{
+            @include boton();
+            background-color: #a756386b;
+            @media only screen and (min-width: 576px){
+                font-size: 3vw;
+            }
+            @media only screen and (min-width: 768px){
+                font-size: 2vw;
+            }
+            @media only screen and (min-width: 992px){
+                font-size: 1vw;
+            }
+            &:hover{
+                @include boton-hover();
+            }
+        }
+
+}
+
+
+
+
+

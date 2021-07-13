@@ -1,0 +1,77 @@
+/* Seccion de próximos eventos */
+
+#proximosEventos{
+    background: linear-gradient(180deg, rgba(0,0,0,0.6474964985994398) 0%, rgba(255,255,255,0) 24%);    
+    position: relative;
+    grid-area: proximosEventos;
+    font-family: DIN-regular, 'open Sans', sans-serif;
+        div div img{
+            filter: drop-shadow(8px 8px 10px #191919);
+        }
+    }
+
+
+
+
+.infoProxEvento{
+    font-size: 6vw;
+    @media only screen and (min-width: 576px){
+        font-size: 4vw;
+    }
+    @media only screen and (min-width: 768px){
+        font-size: 4vw;
+        width: 100%;
+        padding-right: 1vw;
+    }
+    @media only screen and (min-width: 992px){
+        font-size: 2.5vw;
+    }
+
+        h2, p{
+            font-size: .65em;
+            color: black;
+            font-weight: bold;
+        }
+        p{
+            color: rgb(78, 78, 78);    
+        }
+        h1{
+            letter-spacing: 1px;
+            color: $color3;        
+        }
+        hr{
+            display: inline-block;
+            margin: 17px 0;
+            width: 70%;
+            text-align: center;
+            height: 5px;
+            background-color: $color1;        
+        }
+        a{
+            @include boton ();
+            background-color: #a75638b9;
+            @media only screen and (min-width: 576px){
+                font-size: 3vw;
+            }
+            @media only screen and (min-width: 768px){
+                font-size: 2vw;
+            }
+            @media only screen and (min-width: 992px){
+                font-size: 1vw;
+            }
+        
+            &:hover{
+                @include boton-hover();
+            }        
+        }
+}
+
+
+
+
+
+
+
+
+
+
