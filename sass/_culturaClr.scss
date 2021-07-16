@@ -18,9 +18,14 @@
 .videoEventos{
     background-color: #191919;
         div div{
+            a{
+            width: 95%;
+            margin: auto;
             border: 3px solid white;
-            box-sizing: border-box;
             box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.301), -3px 3px 1px rgba(0, 0, 0, 0.5), -4px 4px 2px rgba(0, 0, 0, 0.301);        
+            box-sizing: border-box;
+
+            }
             a img{
                 opacity: .5;
             }
@@ -52,26 +57,27 @@
 
 #artistasClr{
     grid-area: artistasClr;
-    background: rgb(25,25,25);
-    background: linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(248,249,250,1) 14%);
+    background: $color2;
     font-family: DIN-regular, 'open Sans', sans-serif;
         h6{
             letter-spacing: 1px;
             color: $color3;
+            font-weight: lighter;
         }
 }
 
 .borderIframeYoutube{
     border: 4px solid $color3;
-    filter: drop-shadow(8px 8px 10px #191919);
 
 }
 
 .artistasNav li a{
-    color: $color3;
+    color: #19191973;
+    font-weight: lighter;
         &:hover{
-            background-color: #a756387a;
+            color: #a756387a;
             transition: .5s;
+            font-weight: bold;
         }
 }
 
@@ -80,9 +86,10 @@ img.imgArtista{
 }
 .artistasNav .nav-link.active{
     color: $color1;
+    font-weight: bold;
 }
 .redesArtistas a{
-    color: $color3;
+    color: #19191973;
     &:hover{
         color:$color1;
         transition: 0.5s; 

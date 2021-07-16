@@ -32,16 +32,16 @@ body{
     grid-template-rows: 100vh auto auto 0vh auto auto 20vh;
 
     @media only screen and (min-width: 768px){
-        grid-template-rows: 100vh auto auto 0vh auto auto 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto auto 20vh;
 
     }
     @media only screen and (min-width: 992px){
         grid-template-columns:  100%;
-        grid-template-rows: 100vh auto auto 0vh auto auto 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto auto 20vh;
     }
     @media only screen and (min-width: 1200px){
         grid-template-columns:  100%;
-        grid-template-rows: 100vh auto auto 0vh auto 100vh 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto 100vh 20vh;
     }
 
 }
@@ -111,8 +111,8 @@ body{
         height: 4vw;
     }
     @media only screen and (min-width: 992px){
-        width: 4vw;
-        height: 4vw;
+        width: 3vw;
+        height: 3vw;
     }
         &:hover{
             font-family: DIN-regular, 'open Sans', sans-serif;
@@ -135,7 +135,7 @@ body{
         font-size: 4vw;
     }
     @media only screen and (min-width: 992px){
-        font-size:2.674vw;
+        font-size:2vw;
     }
 }
 

@@ -40,7 +40,7 @@
     @media only screen and (min-width: 992px){
         width: 11vw;
         position: absolute;
-        top: -3vw;
+        top: -3.5vw;
     }   
 }
 }
@@ -77,14 +77,21 @@
 }
 
 
+.navbar-nav{
+    @media only screen and (min-width: 992px){
+    margin-left: -40px;
+}
+}
+
 ul.redes li a i{
     font-size: 6vw;
+    margin-right: .4rem;
     @media only screen and (min-width: 768px){
         font-size: 4vw;
     }
 
     @media only screen and (min-width: 992px){
-        font-size: 2vw;
+        font-size: 1.7vw;
     }
 }
 
@@ -113,7 +120,7 @@ ul.redes li a i{
 
 .fa-angle-down{
     font-size: 1em;
-    padding-left: .8em;
+    padding-left: .4em;
 }
 
 .nav-item.dropdown:hover .fa-angle-down{
@@ -129,7 +136,7 @@ ul.redes li a i{
     width: 100%;
     height: 100%;
     position:relative;
-        div{
+        div:first-child{
             height: 100%;
             width: 100%;
             text-align: center;
@@ -165,25 +172,26 @@ ul.redes li a i{
     text-align: center;
     position: absolute;
     width: 100%;
-    top: 25%;
+    top: 30%;
+    @media only screen and (min-width: 992px){
+        width: 30%;
+        left: 14%;
+
+    }
+
         h1{
             font-family: VersicaTextured;    
             text-align: center;
-            color: rgb(255, 255, 255);
-            font-size: 15vw;
-            letter-spacing:2px ;
-            word-spacing: 10px;
-            margin-top: 20px;
+            color: $color2;
+            font-size: 16vw;
             margin-bottom: 40px;
             width: 100%;
-            font-weight: 400;
+            line-height: .5;
             animation-name: entrada-titulo;
             animation-duration: 2s;
             animation-fill-mode: forwards;
             animation-delay: 2.5s;
             visibility: hidden;
-            line-height: 1;
-            text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.301), -3px 3px 1px rgba(0, 0, 0, 0.5), -4px 4px 2px rgba(0, 0, 0, 0.301);
             @media only screen and (min-width: 576px){
                 font-size: 13vw;
             }
@@ -191,22 +199,22 @@ ul.redes li a i{
                 font-size: 10vw;
             }
             @media only screen and (min-width: 992px){
-                font-size: 9vw;
+                font-size: 10.5vw;
             }
         }
 
         h3{
             font-family: DIN-regular, 'open Sans', sans-serif;
-            color: rgb(255, 255, 255);
+            color: $color2;
             font-weight: bold;
-            font-size: 3vw; 
-            margin-top: 20px;
+            font-size: 4vw; 
             font-weight: lighter;
-            text-transform: uppercase;
             animation: 2s entrada-titulo;
             animation-fill-mode: forwards;
             animation-delay: 3s;
             visibility: hidden; 
+            width: 95%;
+            margin: 20px auto 30px;
             @media only screen and (min-width: 576px){
                 font-size: 2.5vw;
             }     
@@ -225,8 +233,11 @@ ul.redes li a i{
             animation-fill-mode: forwards;
             animation-delay:3s;
             visibility: hidden;
+            padding: 1vw 1.5vw;
+            font-size: 5vw;
             &:hover{
                 @include boton-hover();
+                padding: 1vw 1.5vw;
             }
             @media only screen and (min-width: 576px){
                 font-size: 3vw;
@@ -235,7 +246,7 @@ ul.redes li a i{
                 font-size: 2vw;
             } 
             @media only screen and (min-width: 992px){
-                font-size: 1vw;
+                font-size: 1.5vw;
             }       
         }
 }
