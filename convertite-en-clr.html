@@ -79,7 +79,7 @@
             </div>
         </header>
 
-        <section>
+        <section class="convertiteEnClr">
             <div class="container-fluid py-5 row mx-0 justify-content-center tittleConvertiteContainer">
                 <h2  class=" text-center tittleConvertite titulo">Convertite en CLR</h2>
             </div>
@@ -88,7 +88,7 @@
         
             <div data-aos="fade-left"  data-aos-duration="2000" class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-lg-6 col-xl-6 serHost  bgSerHost text-light py-3">
+                    <div class="col-12 col-lg-6 col-xl-6 serHost  bgSerHost py-3">
                         <div class="col-12 text-center py-3">
                             <img src="media/img/IMG-20190717-WA0037.jpg" class="shadow w-75 rounded-pill" alt="Imagen-ser-host">
                         </div>
@@ -105,17 +105,17 @@
                             ¿Queres ser parte?
                         </p>      
                         <div class="col-12 text-center">             
-                            <a target="_bank" href="https://api.whatsapp.com/send?phone=5491168062567&text=¡Hola!,%20me%20gustaría%20ser%20host." class="boton wppConvertite text-decoration-none text-center text-light"><i class="fab fa-whatsapp fa-4x"></i></a>
+                            <a target="_bank" href="https://api.whatsapp.com/send?phone=5491168062567&text=¡Hola!,%20me%20gustaría%20ser%20host." class="boton wppConvertite text-decoration-none text-center text-dark"><i class="fab fa-whatsapp fa-4x"></i></a>
                         </div> 
 
                     </div>
-                    <div id="serArtista" class="col-6 bg-light col-12 col-lg-6 col-xl-6 serArtista bgSerArtista py-3">
+                    <div id="serArtista" class="col-6 col-12 col-lg-6 col-xl-6 serArtista bgSerArtista py-3">
                             <div  class="col-12 text-center py-3">
                                 <img src="media/img/IMG_2094.JPG" class="shadow w-75 rounded-pill" alt="Imagen-ser-artista">
                             </div>
 
                             <h3 class="text-center col-8 offset-2">¿Queres ser artista CLR?</h3>
-                            <hr class="bg-dark w-75 mx-auto my-3">
+                            <hr class="bg-light w-75 mx-auto my-3">
                             <p class="text-center col-8 offset-2"> 
                                 Ser artista CLR es unico. La duracion de cada show es aproximadamente de 25 a 30 minutos.
                                 Vas a encontrar una experiencia calidac única y amigable. 
@@ -138,25 +138,21 @@
         <section class="formularioContacto">
             <form>
                 <fieldset class="mx-auto my-2">
-                <legend>Ponete en contacto con nosotros...</legend>    
+                <legend>Contactanos</legend>    
                 <div class="container-fluid my-5">
                     <div class="row">
                         <div class="col-12 col-lg-4">
-                            <label for="nombre">Nombre</label>
                             <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
                         </div>
                         <div class="col-12 col-lg-4">
-                            <label for="telefono">Teléfono</label>
                             <input placeholder="+54 (911) 1-234-5678" type="tel" id="telefono" class="form-control" required>
                         </div>
                         <div class="form-group col-12 col-lg-4">
-                            <label for="exampleFormControlInput1">E-mail</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
                         </div>
         
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Motivo</label>
                         <select class="custom-select" id="exampleFormControlSelect1">
                             <option selected class="font-weight-bold">Elige el motivo de contacto</option>
                             <option value="1">Quiero ser host CLR</option>
@@ -173,7 +169,7 @@
                     </div>                
                 
                     <button class="btn btnForm" type="submit">Enviar</button>
-                    <button class="btn btnForm" type="reset">Limpiar formulario</button>
+                    <button class="btn btnForm btnFormClean" type="reset">Limpiar formulario</button>
                 </div>
                 </fieldset>
             </form>

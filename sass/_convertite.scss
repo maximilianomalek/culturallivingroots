@@ -17,19 +17,14 @@
 
 }
 
-.tittleConvertiteContainer{
-    background: linear-gradient(180deg, rgba(25,25,25,0.8127626050420168) 0%, rgba(248,249,250,1) 47%);
-
-}
-
 .tittleConvertite{
     color: $color3;
 }
 
-.bgSerHost{
-    background: #191919;
+.convertiteEnClr{
+    background-color: $color2;
+    color: #191919;
 }
-
 .serHost h3, .serArtista h3{
     font-family: versicaRough;
     font-size: 2.5em;
@@ -40,9 +35,6 @@
     transition: 0.5s;
 }
 
-#serArtista{
-    color: #191919;
-}
    
 form fieldset{
     border: #191919 3px solid;
@@ -82,6 +74,10 @@ textarea {
 
 }
 
+.custom-control.custom-switch{
+    padding-bottom: 1rem;
+}
+
 .btnForm{
     @include boton();
     background-color: #a75638b9;
@@ -98,7 +94,14 @@ textarea {
     &:hover{
         @include boton-hover();
     }
+    &.btnFormClean{
+        @include boton-hover();
+        
+    }
+}
 
+.form-control, .custom-select{
+    background-color: $color2;
 }
 
 .form-control:focus, .custom-select:focus{

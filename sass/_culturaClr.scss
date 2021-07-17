@@ -2,7 +2,7 @@
 /* Videos de eventos */
 
 #culturaClr{
-    background-color: $color3;
+    background-color: $color1;
     position: relative;
     grid-area: culturaClr;
     overflow: hidden;
@@ -15,7 +15,7 @@
 
 
 .videoEventos{
-    background-color: $color3;
+    background-color: $color1;
         div div{
             a{
             width: 75%;
@@ -25,7 +25,7 @@
 
             }
             a img{
-                opacity: .5;
+                opacity: .8;
             }
             a p i{
                 color: #f8f9fac2;
@@ -35,9 +35,9 @@
                 transition: .5s;            
             }
             a:hover img{
-                border: 4px solid #191919;
+                border: 4px solid $color3;
                 transition: .5s;
-                opacity: .8;            
+                opacity: 1;            
             }
         }
 
@@ -80,8 +80,12 @@
         }
 }
 
-img.imgArtista{
+.imgArtista{
     width: 255px;
+    height: 255px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
 }
 .artistasNav .nav-link.active{
     color: $color1;

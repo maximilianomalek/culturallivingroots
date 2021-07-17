@@ -228,16 +228,13 @@ ul.redes li a i{
         
         a{
             @include boton();
-            background-color: #a756386b;
             animation: 2s entrada-titulo;
             animation-fill-mode: forwards;
             animation-delay:3s;
             visibility: hidden;
-            padding: 1vw 1.5vw;
-            font-size: 5vw;
             &:hover{
                 @include boton-hover();
-                padding: 1vw 1.5vw;
+                
             }
             @media only screen and (min-width: 576px){
                 font-size: 3vw;

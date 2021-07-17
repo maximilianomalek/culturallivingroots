@@ -21,18 +21,18 @@
 }
 
 .faqsSection{
-    background: linear-gradient(0deg, rgba(25,25,25,0.5466561624649859) 0%, rgba(248,249,250,1) 25%, rgba(248,249,250,1) 75%, rgba(25,25,25,0.5578606442577031) 100%);    
+    background: $color2;    
 
 
 }
 
 .card-header{
     
-    background-color: #191919;
+    background-color: $color3;
 }
 
 .card-header h2 button{
-    background-color: #191919;
+    background-color: $color3;
     color: white;
     transition: 0.5s;
 

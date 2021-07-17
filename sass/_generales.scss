@@ -37,7 +37,7 @@ body{
     }
     @media only screen and (min-width: 992px){
         grid-template-columns:  100%;
-        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto auto 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto 100vh 20vh;
     }
     @media only screen and (min-width: 1200px){
         grid-template-columns:  100%;
@@ -60,25 +60,26 @@ body{
 /*Botones*/
 
 @mixin boton() {
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: DIN-regular, 'open Sans', sans-serif;
     color: $color2;
-    padding: 10px;
+    padding: 1vw 1.5vw;
     margin-bottom: 10px;
     text-decoration: none;
     font-weight: bold;
     border: 2px solid  $color2;
     border-radius: 100px;
+    background-color: $color1-botones;
 }
 
 @mixin boton-hover {
     color: $color1;
-    padding: 10px;
+    padding: 1vw 1.5vw;
     text-decoration: none;
     font-weight: bold;
     border: 2px solid $color1;
 	border-radius: 100px;
-    background-color: #ffffffb9;
+    background-color: $color2;
     transition: 0.5s;
     zoom: 1;    
 }
@@ -105,7 +106,7 @@ body{
     font-weight: bold;
     border: .15vw  solid $color2;
 	border-radius: 50%;
-    background-color: #a75638a6;
+    background-color: $color1-botones;
     @media only screen and (min-width: 768px){
         width: 4vw;
         height: 4vw;

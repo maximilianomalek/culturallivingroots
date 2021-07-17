@@ -1,14 +1,11 @@
 /* Seccion de próximos eventos */
 
 #proximosEventos{
-    background: linear-gradient(180deg, rgba(0,0,0,0.6474964985994398) 0%, rgba(255,255,255,0) 24%);
+    background-color: $color2;
     position: relative;
     grid-area: proximosEventos;
     font-family: DIN-regular, 'open Sans', sans-serif;
-        div div img{
-            filter: drop-shadow(8px 8px 10px #191919);
-        }
-    }
+}
 
 
 
@@ -47,7 +44,7 @@
         }
         a{
             @include boton ();
-            background-color: #a75638b9;
+            background-color: $color1;
             @media only screen and (min-width: 576px){
                 font-size: 3vw;
             }
@@ -55,7 +52,7 @@
                 font-size: 2vw;
             }
             @media only screen and (min-width: 992px){
-                font-size: 1vw;
+                font-size: 1.5vw;
             }
         
             &:hover{
