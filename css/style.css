@@ -97,7 +97,7 @@ html {
 
 body {
   font-family: DIN-regular, 'open Sans', sans-serif;
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
 }
 
 #gridLayout {
@@ -147,14 +147,20 @@ body {
   }
 }
 
+/*Textos*/
+.texto {
+  font-family: DIN-regular, 'open Sans', sans-serif;
+  font-size: 1rem;
+}
+
 /*Botones*/
 .portada a i, .descripcionRaices a i, .infoProxEvento a i {
   padding-right: .5em;
 }
 
 .swipeUp a {
-  width: 6vw;
-  height: 6vw;
+  width: 1.5rem;
+  height: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,15 +171,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 1vw;
-  position: fixed;
-  z-index: 50000000;
   text-decoration: none;
-  bottom: 5vh;
-  right: 5vh;
   font-family: DIN-regular, 'open Sans', sans-serif;
-  color: #FCFAED;
+  color: #f8f9fa;
   font-weight: bold;
-  border: 0.15vw solid #FCFAED;
+  border: 0.15vw solid #f8f9fa;
   border-radius: 50%;
   background-color: #be6e5ca8;
 }
@@ -187,8 +189,8 @@ body {
 
 @media only screen and (min-width: 992px) {
   .swipeUp a {
-    width: 3vw;
-    height: 3vw;
+    width: .8rem;
+    height: .8rem;
   }
 }
 
@@ -199,7 +201,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   border-radius: 100%;
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border: 0.15vw solid #BE6E5C;
@@ -207,7 +209,6 @@ body {
 
 .fa-angle-up {
   font-size: 6vw;
-  text-shadow: .3vw .3vw .3vw black;
 }
 
 @media only screen and (min-width: 768px) {
@@ -287,7 +288,6 @@ body {
 #navbarNavDropdown ul li a {
   color: white;
   font-size: 6vw;
-  font-weight: bold;
 }
 
 #navbarNavDropdown ul li a:hover {
@@ -308,7 +308,6 @@ body {
   #navbarNavDropdown ul li a {
     color: white;
     font-size: 1.3vw;
-    font-weight: bold;
   }
 }
 
@@ -435,15 +434,15 @@ ul.redes li a i {
 
 @media only screen and (min-width: 992px) {
   .portada {
-    width: 30%;
-    left: 14%;
+    width: 50%;
+    left: 3%;
   }
 }
 
 .portada h1 {
   font-family: VersicaTextured;
   text-align: center;
-  color: #FCFAED;
+  color: #f8f9fa;
   font-size: 16vw;
   margin-bottom: 40px;
   width: 100%;
@@ -479,7 +478,7 @@ ul.redes li a i {
 
 .portada h3 {
   font-family: DIN-regular, 'open Sans', sans-serif;
-  color: #FCFAED;
+  color: #f8f9fa;
   font-weight: bold;
   font-size: 4vw;
   font-weight: lighter;
@@ -515,12 +514,12 @@ ul.redes li a i {
 .portada a {
   font-size: 5vw;
   font-family: DIN-regular, 'open Sans', sans-serif;
-  color: #FCFAED;
+  color: #f8f9fa;
   padding: 1vw 1.5vw;
   margin-bottom: 10px;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #FCFAED;
+  border: 2px solid #f8f9fa;
   border-radius: 100px;
   background-color: #be6e5ca8;
   -webkit-animation: 2s entrada-titulo;
@@ -539,7 +538,7 @@ ul.redes li a i {
   font-weight: bold;
   border: 2px solid #BE6E5C;
   border-radius: 100px;
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   zoom: 1;
@@ -603,7 +602,7 @@ ul.redes li a i {
 
 /* Seccion de próximos eventos */
 #proximosEventos {
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
   position: relative;
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -634,18 +633,17 @@ ul.redes li a i {
 }
 
 .infoProxEvento h2 {
-  font-size: .5em;
+  font-size: 1.1rem;
   color: #4e4e4e;
   font-weight: bold;
 }
 
 .infoProxEvento p {
-  font-size: .45em;
   color: #4e4e4e;
 }
 
 .infoProxEvento h1 {
-  color: #42393C;
+  color: #BE6E5C;
 }
 
 .infoProxEvento hr {
@@ -660,12 +658,12 @@ ul.redes li a i {
 .infoProxEvento a {
   font-size: 5vw;
   font-family: DIN-regular, 'open Sans', sans-serif;
-  color: #FCFAED;
+  color: #f8f9fa;
   padding: 1vw 1.5vw;
   margin-bottom: 10px;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #FCFAED;
+  border: 2px solid #f8f9fa;
   border-radius: 100px;
   background-color: #be6e5ca8;
   background-color: #BE6E5C;
@@ -696,7 +694,7 @@ ul.redes li a i {
   font-weight: bold;
   border: 2px solid #BE6E5C;
   border-radius: 100px;
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   zoom: 1;
@@ -705,7 +703,7 @@ ul.redes li a i {
 /*Cultura CLR */
 /* Videos de eventos */
 #culturaClr {
-  background-color: #BE6E5C;
+  background-color: #42393C;
   position: relative;
   -ms-grid-row: 3;
   -ms-grid-column: 1;
@@ -715,23 +713,23 @@ ul.redes li a i {
 }
 
 #culturaClr h3 {
-  color: #FCFAED;
+  color: #f8f9fa;
 }
 
 .videoEventos {
-  background-color: #BE6E5C;
+  background-color: #42393C;
 }
 
 .videoEventos div div a {
   width: 75%;
   margin: auto;
-  border: 3px solid #FCFAED;
+  border: 3px solid #f8f9fa;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 .videoEventos div div a img {
-  opacity: .8;
+  opacity: .5;
 }
 
 .videoEventos div div a p i {
@@ -748,7 +746,7 @@ ul.redes li a i {
   border: 4px solid #42393C;
   -webkit-transition: .5s;
   transition: .5s;
-  opacity: 1;
+  opacity: .8;
 }
 
 .fancybox__slide {
@@ -760,13 +758,13 @@ ul.redes li a i {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: artistasClr;
-  background: #FCFAED;
+  background: #f8f9fa;
   font-family: DIN-regular, 'open Sans', sans-serif;
 }
 
 #artistasClr h6 {
   letter-spacing: 1px;
-  color: #42393C;
+  color: #BE6E5C;
   font-weight: lighter;
 }
 
@@ -812,18 +810,22 @@ ul.redes li a i {
   transition: 0.5s;
 }
 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #f8f9fa;
+}
+
 /* Seccion Roots - quienes somos */
 #raicesClr {
   -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: raicesClr;
   background-color: #BE6E5C;
-  padding: 50px 0;
+  padding: 0px 0 50px 0;
 }
 
 @media only screen and (min-width: 992px) {
   #raicesClr {
-    background-image: url("../media/img/573e6e14-92bf-4655-9741-4b6021195dfc.jpg");
+    background-image: url("../media/img/WhatsApp Image 2021-07-17 at 19.44.38.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -848,18 +850,18 @@ ul.redes li a i {
 }
 
 .descripcionRaices h6 {
-  font-size: .5em;
+  font-size: 1.1rem;
   color: white;
+  font-weight: bold;
 }
 
 .descripcionRaices h2 {
-  font-size: .4em;
   color: white;
   text-align: justify;
 }
 
 .descripcionRaices p {
-  color: #FCFAED;
+  color: #f8f9fa;
 }
 
 .descripcionRaices hr {
@@ -868,18 +870,18 @@ ul.redes li a i {
   width: 70%;
   text-align: center;
   height: 1px;
-  background-color: #42393C;
+  background-color: white;
 }
 
 .descripcionRaices a {
   font-size: 5vw;
   font-family: DIN-regular, 'open Sans', sans-serif;
-  color: #FCFAED;
+  color: #f8f9fa;
   padding: 1vw 1.5vw;
   margin-bottom: 10px;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #FCFAED;
+  border: 2px solid #f8f9fa;
   border-radius: 100px;
   background-color: #be6e5ca8;
 }
@@ -909,7 +911,7 @@ ul.redes li a i {
   font-weight: bold;
   border: 2px solid #BE6E5C;
   border-radius: 100px;
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   zoom: 1;
@@ -933,11 +935,11 @@ ul.redes li a i {
 }
 
 .tittleConvertite {
-  color: #42393C;
+  color: #BE6E5C;
 }
 
 .convertiteEnClr {
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
   color: #191919;
 }
 
@@ -953,15 +955,15 @@ ul.redes li a i {
 }
 
 form fieldset {
-  border: #191919 3px solid;
+  border: #42393C 3px solid;
   width: 98%;
 }
 
 form legend {
-  color: #191919;
+  color: #42393C;
   font-family: VersicaRough;
   font-size: 1.5rem;
-  width: 50%;
+  width: 40%;
   text-align: center;
 }
 
@@ -974,6 +976,10 @@ form legend {
 @media only screen and (min-width: 992px) {
   form legend {
     font-size: 3rem;
+    width: 30%;
+    text-align: left;
+    padding-left: 7%;
+    margin-left: 50px;
   }
 }
 
@@ -999,12 +1005,12 @@ textarea {
 .btnForm {
   font-size: 5vw;
   font-family: DIN-regular, 'open Sans', sans-serif;
-  color: #FCFAED;
+  color: #f8f9fa;
   padding: 1vw 1.5vw;
   margin-bottom: 10px;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #FCFAED;
+  border: 2px solid #f8f9fa;
   border-radius: 100px;
   background-color: #be6e5ca8;
   background-color: #a75638b9;
@@ -1035,7 +1041,7 @@ textarea {
   font-weight: bold;
   border: 2px solid #BE6E5C;
   border-radius: 100px;
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   zoom: 1;
@@ -1048,14 +1054,14 @@ textarea {
   font-weight: bold;
   border: 2px solid #BE6E5C;
   border-radius: 100px;
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   zoom: 1;
 }
 
 .form-control, .custom-select {
-  background-color: #FCFAED;
+  background-color: #f8f9fa;
 }
 
 .form-control:focus, .custom-select:focus {
@@ -1063,6 +1069,7 @@ textarea {
   -webkit-box-shadow: inset 0 1px 1px #1919196e, 0 0 8px #a75638f5;
           box-shadow: inset 0 1px 1px #1919196e, 0 0 8px #a75638f5;
   outline: 0 none;
+  background-color: #f8f9fa;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -1070,6 +1077,7 @@ textarea {
   -webkit-box-shadow: inset  0 1px 1px #1919196e, 0 0 8px #a75638f5;
           box-shadow: inset  0 1px 1px #1919196e, 0 0 8px #a75638f5;
   outline: 0 none;
+  background-color: #f8f9fa;
 }
 
 .mapa {
@@ -1105,7 +1113,7 @@ textarea {
 }
 
 .faqsSection {
-  background: #FCFAED;
+  background: #f8f9fa;
 }
 
 .card-header {
@@ -1129,7 +1137,7 @@ textarea {
 }
 
 .tittleFaqs {
-  color: #42393C;
+  color: #BE6E5C;
 }
 
 /* Seccion footer */
@@ -1141,95 +1149,49 @@ textarea {
   border-top: 1px solid rgba(255, 255, 255, 0.281);
   position: relative;
   font-family: DIN-regular, 'open Sans', sans-serif;
+  overflow: hidden;
 }
 
-.contenedorFooter {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-  height: 100%;
+#footer div img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: .2;
 }
 
-.contenedorFooter a, .contenedorFooter p {
-  color: #FCFAED;
-  font-size: 2.5vmax;
-  font-weight: bold;
-  font-family: DIN-regular, 'open Sans', sans-serif;
-  text-align: center;
-}
-
-@media only screen and (min-width: 768px) {
-  .contenedorFooter a, .contenedorFooter p {
-    font-size: 1.5vmax;
+@media only screen and (min-width: 992px) {
+  #footer div img {
+    width: 120px;
+    height: 120px;
   }
 }
 
-.contenedorFooter p span {
-  font-family: VersicaTextured;
+.copyright {
   color: #f8f9fa;
+  font-size: .6rem;
 }
 
-.contenedorFooter a i {
-  width: 80%;
-}
-
-@media only screen and (min-width: 768px) {
-  .contenedorFooter .mailto {
-    padding-right: 10px;
+@media only screen and (min-width: 992px) {
+  .copyright {
+    font-size: .8rem;
   }
 }
 
-.contenedorFooter .mailto a i {
-  margin-right: 1vw;
+.redesFooter a {
+  color: #f8f9fa;
+  font-size: .6rem;
 }
 
-@media only screen and (min-width: 768px) {
-  .contenedorFooter .mailto a i {
-    margin-right: 2vw;
-    width: 0px;
+@media only screen and (min-width: 992px) {
+  .redesFooter a {
+    font-size: .8rem;
   }
 }
 
-.contenedorFooter div a:hover {
+.redesFooter a:hover {
   color: #BE6E5C;
-  text-decoration: none;
-  padding: .1vw;
-  font-weight: bold;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-}
-
-.logoFooter {
-  width: 100%;
-  height: 100%;
-  overflow-y: hidden;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.logoFooter .imgLogoFooter {
-  width: 150px;
-  position: relative;
-  opacity: .1;
-  z-index: 1000;
 }
 /*# sourceMappingURL=style.css.map */

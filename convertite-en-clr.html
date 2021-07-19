@@ -82,17 +82,13 @@
         <section class="convertiteEnClr">
             <div class="container-fluid py-5 row mx-0 justify-content-center tittleConvertiteContainer">
                 <h2  class=" text-center tittleConvertite titulo">Convertite en CLR</h2>
-            </div>
-    
-
-        
+            </div>        
             <div data-aos="fade-left"  data-aos-duration="2000" class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-6 col-xl-6 serHost  bgSerHost py-3">
                         <div class="col-12 text-center py-3">
                             <img src="media/img/IMG-20190717-WA0037.jpg" class="shadow w-75 rounded-pill" alt="Imagen-ser-host">
                         </div>
-
                         <h3 class="text-center col-8 offset-2">¿Queres ser host?</h3>
                         <hr class="bg-light w-75 mx-auto my-3">
                         <p class="text-center col-8 offset-2"> 
@@ -107,13 +103,11 @@
                         <div class="col-12 text-center">             
                             <a target="_bank" href="https://api.whatsapp.com/send?phone=5491168062567&text=¡Hola!,%20me%20gustaría%20ser%20host." class="boton wppConvertite text-decoration-none text-center text-dark"><i class="fab fa-whatsapp fa-4x"></i></a>
                         </div> 
-
                     </div>
                     <div id="serArtista" class="col-6 col-12 col-lg-6 col-xl-6 serArtista bgSerArtista py-3">
                             <div  class="col-12 text-center py-3">
                                 <img src="media/img/IMG_2094.JPG" class="shadow w-75 rounded-pill" alt="Imagen-ser-artista">
                             </div>
-
                             <h3 class="text-center col-8 offset-2">¿Queres ser artista CLR?</h3>
                             <hr class="bg-light w-75 mx-auto my-3">
                             <p class="text-center col-8 offset-2"> 
@@ -126,98 +120,92 @@
                             </p>      
                             <div class="col-12 text-center">             
                                 <a target="_bank" href="https://api.whatsapp.com/send?phone=5491168062567&text=¡Hola!,%20me%20gustaría%20ser%20artista%20CLR." class="boton wppConvertite text-decoration-none text-center text-dark"><i class="fab fa-whatsapp fa-4x"></i></a>
-                            </div> 
-        
+                            </div>        
                     </div>
                 </div>
             </div>
         </section>
-
-
-
         <section class="formularioContacto">
             <form>
                 <fieldset class="mx-auto my-2">
-                <legend>Contactanos</legend>    
-                <div class="container-fluid my-5">
-                    <div class="row">
-                        <div class="col-12 col-lg-4">
-                            <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                    <legend>Contactanos</legend>    
+                    <div class="container-fluid my-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 pt-3 pt-lg-0">
+                                <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                            </div>
+                            <div class="col-12 col-lg-4 pt-3 pt-lg-0">
+                                <input placeholder="+54 (911) 1-234-5678" type="tel" id="telefono" class="form-control" required>
+                            </div>
+                            <div class="form-group col-12 col-lg-4 pt-3 pt-lg-0">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+                            </div>
                         </div>
-                        <div class="col-12 col-lg-4">
-                            <input placeholder="+54 (911) 1-234-5678" type="tel" id="telefono" class="form-control" required>
+                        <div class="form-group">
+                            <select class="custom-select" id="exampleFormControlSelect1">
+                                <option selected class="font-weight-bold">Elige el motivo de contacto</option>
+                                <option value="1">Quiero ser host CLR</option>
+                                <option value="2">Quiero ser artista CLR</option>
+                                <option value="3">Quiero realizar una consulta</option>
+                            </select>
                         </div>
-                        <div class="form-group col-12 col-lg-4">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+                        <div class="form-group">
+                            <textarea required class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribinos tu consulta..."></textarea>
                         </div>
-        
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="customSwitch1" >
+                            <label class="custom-control-label font-weight-bold" for="customSwitch1">Deseo enterarme de los proximos eventos</label>
+                        </div>                
+                        <button class="btn btnForm" type="submit">Enviar</button>
+                        <button class="btn btnForm btnFormClean" type="reset">Limpiar formulario</button>
                     </div>
-                    <div class="form-group">
-                        <select class="custom-select" id="exampleFormControlSelect1">
-                            <option selected class="font-weight-bold">Elige el motivo de contacto</option>
-                            <option value="1">Quiero ser host CLR</option>
-                            <option value="2">Quiero ser artista CLR</option>
-                            <option value="3">Quiero realizar una consulta</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <textarea required class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribinos tu consulta..."></textarea>
-                    </div>
-                    <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="customSwitch1" >
-                        <label class="custom-control-label font-weight-bold" for="customSwitch1">Deseo enterarme de los proximos eventos</label>
-                    </div>                
-                
-                    <button class="btn btnForm" type="submit">Enviar</button>
-                    <button class="btn btnForm btnFormClean" type="reset">Limpiar formulario</button>
-                </div>
                 </fieldset>
             </form>
         </section>
 
 
         <!-- 4 Footer -->
-        <footer id="footer">
-            <div class="logoFooter">
-                <a href="index.html">
-                    <img class="imgLogoFooter" src="media\logos/logoCLR-02.png" alt="Logo-CLR">
-                </a>
-            </div>
-
-            <div class="contenedorFooter">
-                <div>
-                    <p><span>CLR</span> 2021/</p>
-                    <p>
-                        <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/culturallivingroots/">@Culturallivingroots</a>
-                    </p>   
+        <footer id="footer" class="container-fluid">
+            <div class="row text-center h-100 align-items-center">
+                <div class="col-lg-5 col-4 text-white">
+                    <p class="copyright">Cultural Living Roots 2018-2021.</p>
+                    <p class="copyright">&#169 All Rights Reserved.</p>   
                 </div>
-
-                <div class="mailto">
-                    <a rel="noopener noreferrer" target="_blank" href="mailto:culturallivingroots@gmail.com">
-                        <i class="far fa-envelope"></i>Contactanos
+                <div class="col-lg-2 col-4">
+                    <a href="index.html">
+                        <img  src="media\logos/logoCLR-02 sin texto.png" alt="Logo-CLR">
                     </a>
+                </div>    
+                <div class="col-lg-5 col-4">
+                    <ul class="redesFooter row list-unstyled m-auto justify-content-center align-items-center">
+                        <li>
+                            <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/CulturalLivingRoots">
+                                <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                            </a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_blank" href="mailto:culturallivingroots@gmail.com">
+                                <i class="fas fa-envelope fa-2x pr-2" ></i>
+                            </a>                        
+                        </li>
+                        <li class="mr-lg-5">
+                            <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/culturallivingroots/?utm_source=ig_profile_share&igshid=14k2p1bv2ckw7">
+                                <i class="fab fa-instagram fa-2x" ></i>
+                            </a>
+                        </li>
+                        <li class="swipeUp ml-lg-5">
+                            <a href="#portada"><i class="fas fa-angle-up"></i></a>
+                        </li>
+                    </ul>        
                 </div>
-            </div>
+            </div>        
         </footer>
-
-        <div class="swipeUp">
-            <a href="#portada"><i class="fas fa-angle-up"></i></a>
-        </div>
-
         <script src="js/wow.min.js"></script>
-        <script>
-            new WOW().init();
-        </script>
-
+        <script>new WOW().init();</script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-
+        <script>AOS.init();</script>
         <script src="js/jquery-3.5.1.slim.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-
-
 
 </body>
 </html>

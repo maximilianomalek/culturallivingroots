@@ -55,7 +55,6 @@
         ul li a{
             color: white;
             font-size: 6vw;
-            font-weight: bold;
             &:hover{
                 text-decoration: overline $color1 2px;
                 color:$color1;
@@ -68,7 +67,6 @@
             @media only screen and (min-width: 992px){
                 color: white;
                 font-size: 1.3vw;
-                font-weight: bold;        
             }        
         }
         ul li div a:hover{
@@ -174,8 +172,8 @@ ul.redes li a i{
     width: 100%;
     top: 30%;
     @media only screen and (min-width: 992px){
-        width: 30%;
-        left: 14%;
+        width: 50%;
+        left: 3%;
 
     }
 
