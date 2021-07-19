@@ -647,8 +647,8 @@
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-    <script>var promise = document.querySelector('video').play();
-
+    <script>
+        let promise = document.querySelector('video').play();
         if (promise !== undefined) {
             promise.catch(error => {
                 // Auto-play was prevented
@@ -656,6 +656,7 @@
             }).then(() => {
                 // Auto-play started
             });
-    }</script>    
+        }
+    </script>
 </body>
 </html>
