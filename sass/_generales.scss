@@ -23,25 +23,24 @@ body{
     "portada"
     "proximosEventos"
     "culturaClr"
-    "separadorEventos"
     "artistasClr"
     "raicesClr"
     "footer";
 
     grid-template-columns:  100%;
-    grid-template-rows: 100vh auto auto 0vh auto auto 20vh;
+    grid-template-rows: 100vh auto auto auto auto 20vh;
 
     @media only screen and (min-width: 768px){
-        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto auto 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) auto auto 20vh;
 
     }
     @media only screen and (min-width: 992px){
         grid-template-columns:  100%;
-        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto 100vh 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(50vh, auto) auto auto 20vh;
     }
     @media only screen and (min-width: 1200px){
         grid-template-columns:  100%;
-        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto 100vh 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) auto minmax(100vh, auto) 20vh;
     }
 
 }
@@ -67,6 +66,7 @@ body{
 /*Botones*/
 
 @mixin boton() {
+    display: inline-block;
     font-size: 5vw;
     font-family: DIN-regular, 'open Sans', sans-serif;
     color: $color2;
@@ -111,8 +111,8 @@ body{
 	border-radius: 50%;
     background-color: $color1-botones;
     @media only screen and (min-width: 768px){
-        width: 4vw;
-        height: 4vw;
+        width: .8rem;
+        height: .8rem;
     }
     @media only screen and (min-width: 992px){
         width: .8rem;
@@ -133,9 +133,9 @@ body{
 }
 
 .fa-angle-up{
-    font-size: 6vw;
+    font-size: 1rem;
     @media only screen and (min-width: 768px){
-        font-size: 4vw;
+        font-size: 2vw;
     }
     @media only screen and (min-width: 992px){
         font-size:2vw;

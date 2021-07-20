@@ -30,6 +30,10 @@
     font-size: 2.5em;
 }
 
+.serHostTexto, .serArtistaTexto{
+    min-height: 150px;
+}
+
 .fa-whatsapp:hover{
     color:$color1;
     transition: 0.5s;
@@ -76,6 +80,10 @@ textarea {
     border-color: #f8f9fa;
     background-color: $color1;
 
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::after{
+    background-color: $color3;
 }
 
 .custom-control.custom-switch{

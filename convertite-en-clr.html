@@ -17,10 +17,10 @@
     <title>Se parte de un CLR | Contacto</title>
 </head>
     <body>
-    <!--2 Header, incluye: Barra de navegacion, Logo, Redes sociales.-->
+    <!--Header, incluye: Barra de navegacion, Logo, Redes sociales.-->
         <header id="portada" class="headerConvertite">
             <div class="headerImagenConvertite"></div>
-            <!--2.1 Barra de navegación -->
+            <!--Barra de navegación -->
             <div class="container-fluid convertite">
                 <nav class="navbar navbar-expand-lg navbar-dark">
                     <a class="navbar-brand col-2 a-imgLogo" href="index.html">
@@ -78,7 +78,7 @@
                 </nav>        
             </div>
         </header>
-
+        <!-- Ser parte del CLR, diferentes opciones. Ser artista o ser host -->
         <section class="convertiteEnClr">
             <div class="container-fluid py-5 row mx-0 justify-content-center tittleConvertiteContainer">
                 <h2  class=" text-center tittleConvertite titulo">Convertite en CLR</h2>
@@ -91,13 +91,14 @@
                         </div>
                         <h3 class="text-center col-8 offset-2">¿Queres ser host?</h3>
                         <hr class="bg-light w-75 mx-auto my-3">
-                        <p class="text-center col-8 offset-2"> 
+                        <p class="text-center col-8 offset-2 serHostTexto"> 
                             Nuestros hosts son los residentes que
                             proponen
                             un espacio de su hogar para realizar uno de
-                            los encuentros CLR.                        
+                            los encuentros CLR.
+                            Ser partícipe de un CLR tiene una magia increible. Encontrar el living de nuestro hogar como un escenario de artistas de elite aumenta la energía en el ambiente infinitamente.                         
                         </p>  
-                        <p class="text-center mt-5 mb-4">
+                        <p class="text-center">
                             ¿Queres ser parte?
                         </p>      
                         <div class="col-12 text-center">             
@@ -110,9 +111,9 @@
                             </div>
                             <h3 class="text-center col-8 offset-2">¿Queres ser artista CLR?</h3>
                             <hr class="bg-light w-75 mx-auto my-3">
-                            <p class="text-center col-8 offset-2"> 
+                            <p class="text-center col-8 offset-2 serArtistaTexto"> 
                                 Ser artista CLR es unico. La duracion de cada show es aproximadamente de 25 a 30 minutos.
-                                Vas a encontrar una experiencia calidac única y amigable. 
+                                Vas a encontrar una experiencia cálida única y amigable. 
                                 Podes ser parte del evento completo disfrutando, al igual que todos, nuestros espacios. 
                             </p>  
                             <p class="text-center">
@@ -125,6 +126,7 @@
                 </div>
             </div>
         </section>
+        <!-- Formulario de contacto -->
         <section class="formularioContacto">
             <form>
                 <fieldset class="mx-auto my-2">
@@ -168,22 +170,29 @@
         <footer id="footer" class="container-fluid">
             <div class="row text-center h-100 align-items-center">
                 <div class="col-lg-5 col-4 text-white">
-                    <p class="copyright">Cultural Living Roots 2018-2021.</p>
-                    <p class="copyright">&#169 All Rights Reserved.</p>   
+                    <p class="copyright my-0">Cultural Living Roots 2018-2021.</p>
+                    <p class="copyright my-0">&#169 All Rights Reserved.</p>   
                 </div>
                 <div class="col-lg-2 col-4">
                     <a href="index.html">
                         <img  src="media\logos/logoCLR-02 sin texto.png" alt="Logo-CLR">
                     </a>
-                </div>    
-                <div class="col-lg-5 col-4">
-                    <ul class="redesFooter row list-unstyled m-auto justify-content-center align-items-center">
-                        <li>
+                </div> 
+                <div class="col-1 px-0">
+                    <ul class="row list-unstyled m-auto justify-content-end align-items-center">
+                        <li class="swipeUp ml-lg-2">
+                            <a href="#portada"><i class="fas fa-angle-up"></i></a>
+                        </li>
+                    </ul>        
+                </div>
+                <div class="col-lg-4 col-3 pl-0">
+                    <ul class="redesFooter row list-unstyled m-auto justify-content-end align-items-center">
+                        <li class="mr-lg-2">
                             <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/CulturalLivingRoots">
                                 <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
                             </a>
                         </li>
-                        <li>
+                        <li class="mr-lg-2">
                             <a rel="noopener noreferrer" target="_blank" href="mailto:culturallivingroots@gmail.com">
                                 <i class="fas fa-envelope fa-2x pr-2" ></i>
                             </a>                        
@@ -193,10 +202,7 @@
                                 <i class="fab fa-instagram fa-2x" ></i>
                             </a>
                         </li>
-                        <li class="swipeUp ml-lg-5">
-                            <a href="#portada"><i class="fas fa-angle-up"></i></a>
-                        </li>
-                    </ul>        
+                    </ul>
                 </div>
             </div>        
         </footer>

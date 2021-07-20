@@ -4,19 +4,16 @@
 #footer{
     background-color: $color3;
     grid-area: footer;
-    border-top: 1px solid rgba(255, 255, 255, 0.281);
+    border-top: 1px solid rgba(255, 255, 255, 0.548);
     position: relative;
     font-family: DIN-regular, 'open Sans', sans-serif;
     overflow: hidden;
+    height: 20vh;
         div img{
             width: 80px;
             height: 80px;
             object-fit: cover;
             opacity: .2;
-            @media only screen and (min-width: 992px){
-                width: 120px;
-                height: 120px;
-                } 
         
         }
 
@@ -26,18 +23,16 @@
 .copyright{
     color: $color2;
     font-size: .6rem;
-    @media only screen and (min-width: 992px){
-        font-size: .8rem;
-    } 
 
 }
 
 .redesFooter a{
     color: $color2;
-    font-size: .6rem;
-    @media only screen and (min-width: 992px){
-        font-size: .8rem;
-    } 
+    font-size: .4rem;
+    @media only screen and (min-width: 576px){
+        font-size: .7rem;
+    }
+
 
 
     &:hover{

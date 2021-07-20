@@ -103,17 +103,17 @@ body {
 #gridLayout {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "portada" "proximosEventos" "culturaClr" "separadorEventos" "artistasClr" "raicesClr" "footer";
+      grid-template-areas: "portada" "proximosEventos" "culturaClr" "artistasClr" "raicesClr" "footer";
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: 100vh auto auto 0vh auto auto 20vh;
-      grid-template-rows: 100vh auto auto 0vh auto auto 20vh;
+  -ms-grid-rows: 100vh auto auto auto auto 20vh;
+      grid-template-rows: 100vh auto auto auto auto 20vh;
 }
 
 @media only screen and (min-width: 768px) {
   #gridLayout {
-    -ms-grid-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto auto 20vh;
-        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto auto 20vh;
+    -ms-grid-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) auto auto 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) auto auto 20vh;
   }
 }
 
@@ -121,8 +121,8 @@ body {
   #gridLayout {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto 100vh 20vh;
-        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto 100vh 20vh;
+    -ms-grid-rows: 100vh minmax(100vh, auto) minmax(50vh, auto) auto auto 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(50vh, auto) auto auto 20vh;
   }
 }
 
@@ -130,8 +130,8 @@ body {
   #gridLayout {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto 100vh 20vh;
-        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) 0vh auto 100vh 20vh;
+    -ms-grid-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) auto minmax(100vh, auto) 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) auto minmax(100vh, auto) 20vh;
   }
 }
 
@@ -182,8 +182,8 @@ body {
 
 @media only screen and (min-width: 768px) {
   .swipeUp a {
-    width: 4vw;
-    height: 4vw;
+    width: .8rem;
+    height: .8rem;
   }
 }
 
@@ -208,12 +208,12 @@ body {
 }
 
 .fa-angle-up {
-  font-size: 6vw;
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
   .fa-angle-up {
-    font-size: 4vw;
+    font-size: 2vw;
   }
 }
 
@@ -512,6 +512,7 @@ ul.redes li a i {
 }
 
 .portada a {
+  display: inline-block;
   font-size: 5vw;
   font-family: DIN-regular, 'open Sans', sans-serif;
   color: #f8f9fa;
@@ -656,6 +657,7 @@ ul.redes li a i {
 }
 
 .infoProxEvento a {
+  display: inline-block;
   font-size: 5vw;
   font-family: DIN-regular, 'open Sans', sans-serif;
   color: #f8f9fa;
@@ -755,7 +757,7 @@ ul.redes li a i {
 
 /* Seccion artistasClr */
 #artistasClr {
-  -ms-grid-row: 5;
+  -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: artistasClr;
   background: #f8f9fa;
@@ -816,11 +818,12 @@ ul.redes li a i {
 
 /* Seccion Roots - quienes somos */
 #raicesClr {
-  -ms-grid-row: 6;
+  -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: raicesClr;
   background-color: #BE6E5C;
   padding: 0px 0 50px 0;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 992px) {
@@ -874,6 +877,7 @@ ul.redes li a i {
 }
 
 .descripcionRaices a {
+  display: inline-block;
   font-size: 5vw;
   font-family: DIN-regular, 'open Sans', sans-serif;
   color: #f8f9fa;
@@ -948,6 +952,10 @@ ul.redes li a i {
   font-size: 2.5em;
 }
 
+.serHostTexto, .serArtistaTexto {
+  min-height: 150px;
+}
+
 .fa-whatsapp:hover {
   color: #BE6E5C;
   -webkit-transition: 0.5s;
@@ -998,11 +1006,16 @@ textarea {
   background-color: #BE6E5C;
 }
 
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #42393C;
+}
+
 .custom-control.custom-switch {
   padding-bottom: 1rem;
 }
 
 .btnForm {
+  display: inline-block;
   font-size: 5vw;
   font-family: DIN-regular, 'open Sans', sans-serif;
   color: #f8f9fa;
@@ -1143,13 +1156,14 @@ textarea {
 /* Seccion footer */
 #footer {
   background-color: #42393C;
-  -ms-grid-row: 7;
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: footer;
-  border-top: 1px solid rgba(255, 255, 255, 0.281);
+  border-top: 1px solid rgba(255, 255, 255, 0.548);
   position: relative;
   font-family: DIN-regular, 'open Sans', sans-serif;
   overflow: hidden;
+  height: 20vh;
 }
 
 #footer div img {
@@ -1160,32 +1174,19 @@ textarea {
   opacity: .2;
 }
 
-@media only screen and (min-width: 992px) {
-  #footer div img {
-    width: 120px;
-    height: 120px;
-  }
-}
-
 .copyright {
   color: #f8f9fa;
   font-size: .6rem;
 }
 
-@media only screen and (min-width: 992px) {
-  .copyright {
-    font-size: .8rem;
-  }
-}
-
 .redesFooter a {
   color: #f8f9fa;
-  font-size: .6rem;
+  font-size: .4rem;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 576px) {
   .redesFooter a {
-    font-size: .8rem;
+    font-size: .7rem;
   }
 }
 
