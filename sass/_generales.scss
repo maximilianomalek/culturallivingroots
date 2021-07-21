@@ -40,7 +40,7 @@ body{
     }
     @media only screen and (min-width: 1200px){
         grid-template-columns:  100%;
-        grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) auto minmax(100vh, auto) 20vh;
+        grid-template-rows: 100vh minmax(100vh, auto) minmax(50vh, auto) auto minmax(100vh, auto) 20vh;
     }
 
 }
