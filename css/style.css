@@ -850,7 +850,7 @@ ul.redes li a i {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   #raicesClr {
     background-image: url("../media/img/WhatsApp Image 2021-07-17 at 19.44.38.jpeg");
     background-size: cover;
