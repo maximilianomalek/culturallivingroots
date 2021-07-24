@@ -55,16 +55,15 @@
                                 <a class="nav-link" href="faqs.html">FAQs</a>
                             </li>
                         </ul>
-                        
-                        <ul class="redes row list-unstyled col-12 col-xl-2 col-lg-2 m-auto justify-content-xl-end justify-content-lg-end justify-content-center align-items-end m-lg-0">
+                        <ul class="redes row list-unstyled col-12 col-xl-2 col-lg-2 m-auto m-lg-0 justify-content-xl-end justify-content-lg-end justify-content-center align-items-end py-5 py-lg-0">
                             <li>
                                 <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/CulturalLivingRoots">
-                                    <i class="fab fa-facebook fa-2x pr-2" ></i>                                    
+                                    <i class="fab fa-facebook fa-2x pr-3 pr-sm-5 pr-lg-2" ></i>                                    
                                 </a>
                             </li>
                             <li>
                                 <a rel="noopener noreferrer" target="_blank" href="mailto:culturallivingroots@gmail.com">
-                                    <i class="fas fa-envelope fa-2x pr-2" ></i>
+                                    <i class="fas fa-envelope fa-2x pr-3 pr-sm-5 pr-lg-2" ></i>
                                 </a>                        
                             </li>
                             <li>
@@ -72,8 +71,7 @@
                                     <i class="fab fa-instagram fa-2x" ></i>
                                 </a>
                             </li>
-                        </ul>
-        
+                        </ul>                
                     </div>
                 </nav>        
             </div>
@@ -99,7 +97,7 @@
                             Ser partícipe de un CLR tiene una magia increible. Encontrar el living de nuestro hogar como un escenario de artistas de elite aumenta la energía en el ambiente infinitamente.                         
                         </p>  
                         <p class="text-center">
-                            ¿Queres ser parte?
+                            ¿Querés ser parte?
                         </p>      
                         <div class="col-12 text-center">             
                             <a target="_bank" href="https://api.whatsapp.com/send?phone=5491168062567&text=¡Hola!,%20me%20gustaría%20ser%20host." class="boton wppConvertite text-decoration-none text-center text-dark"><i class="fab fa-whatsapp fa-4x"></i></a>
@@ -112,12 +110,12 @@
                             <h3 class="text-center col-8 offset-2">¿Queres ser artista CLR?</h3>
                             <hr class="bg-light w-75 mx-auto my-3">
                             <p class="text-center col-8 offset-2 serArtistaTexto"> 
-                                Ser artista CLR es unico. La duracion de cada show es aproximadamente de 25 a 30 minutos.
+                                Ser artista CLR es único. La duración de cada show es aproximadamente de 25 a 30 minutos.
                                 Vas a encontrar una experiencia cálida única y amigable. 
                                 Podes ser parte del evento completo disfrutando, al igual que todos, nuestros espacios. 
                             </p>  
                             <p class="text-center">
-                                ¿Queres ser parte?
+                                ¿Querés ser parte?
                             </p>      
                             <div class="col-12 text-center">             
                                 <a target="_bank" href="https://api.whatsapp.com/send?phone=5491168062567&text=¡Hola!,%20me%20gustaría%20ser%20artista%20CLR." class="boton wppConvertite text-decoration-none text-center text-dark"><i class="fab fa-whatsapp fa-4x"></i></a>
@@ -128,7 +126,7 @@
         </section>
         <!-- Formulario de contacto -->
         <section class="formularioContacto">
-            <form>
+            <form method="POST" id="myForm">
                 <fieldset class="mx-auto my-2">
                     <legend>Contactanos</legend>    
                     <div class="container-fluid my-5">
@@ -158,14 +156,12 @@
                             <input type="checkbox" class="custom-control-input" id="customSwitch1" >
                             <label class="custom-control-label font-weight-bold" for="customSwitch1">Deseo enterarme de los proximos eventos</label>
                         </div>                
-                        <button class="btn btnForm" type="submit">Enviar</button>
+                        <button class="btn btnForm" type="submit" data-toggle="modal" data-target="#exampleModal">Enviar</button>
                         <button class="btn btnForm btnFormClean" type="reset">Limpiar formulario</button>
                     </div>
                 </fieldset>
             </form>
         </section>
-
-
         <!-- 4 Footer -->
         <footer id="footer" class="container-fluid">
             <div class="row text-center h-100 align-items-center">
@@ -206,6 +202,27 @@
                 </div>
             </div>        
         </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">¡Muchísimas gracias por contactarnos!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Nos estaremos contactando con vos a la brevedad.</p>
+                        <p>Recordá revisar tu bandeja de spam frecuentemente.</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btnForm" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="js/wow.min.js"></script>
         <script>new WOW().init();</script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

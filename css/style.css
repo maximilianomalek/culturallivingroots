@@ -141,7 +141,19 @@ body {
   font-size: 2.9rem;
 }
 
+@media only screen and (min-width: 576px) {
+  .titulo {
+    font-size: 4rem;
+  }
+}
+
 @media only screen and (min-width: 768px) {
+  .titulo {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
   .titulo {
     font-size: 4rem;
   }
@@ -151,6 +163,24 @@ body {
 .texto {
   font-family: DIN-regular, 'open Sans', sans-serif;
   font-size: 1rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .texto {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .texto {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .texto {
+    font-size: 1rem;
+  }
 }
 
 /*Botones*/
@@ -322,13 +352,13 @@ body {
 }
 
 ul.redes li a i {
-  font-size: 6vw;
+  font-size: 8vw;
   margin-right: .4rem;
 }
 
 @media only screen and (min-width: 768px) {
   ul.redes li a i {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 }
 
@@ -443,7 +473,7 @@ ul.redes li a i {
   font-family: VersicaTextured;
   text-align: center;
   color: #f8f9fa;
-  font-size: 16vw;
+  font-size: 5rem;
   margin-bottom: 40px;
   width: 100%;
   line-height: .5;
@@ -460,19 +490,19 @@ ul.redes li a i {
 
 @media only screen and (min-width: 576px) {
   .portada h1 {
-    font-size: 13vw;
+    font-size: 5rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .portada h1 {
-    font-size: 10vw;
+    font-size: 8rem;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .portada h1 {
-    font-size: 10.5vw;
+    font-size: 8rem;
   }
 }
 
@@ -480,7 +510,6 @@ ul.redes li a i {
   font-family: DIN-regular, 'open Sans', sans-serif;
   color: #f8f9fa;
   font-weight: bold;
-  font-size: 4vw;
   font-weight: lighter;
   -webkit-animation: 2s entrada-titulo;
           animation: 2s entrada-titulo;
@@ -491,24 +520,6 @@ ul.redes li a i {
   visibility: hidden;
   width: 95%;
   margin: 20px auto 30px;
-}
-
-@media only screen and (min-width: 576px) {
-  .portada h3 {
-    font-size: 2.5vw;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .portada h3 {
-    font-size: 2vw;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .portada h3 {
-    font-size: 1.4vw;
-  }
 }
 
 .portada a {
@@ -553,7 +564,7 @@ ul.redes li a i {
 
 @media only screen and (min-width: 768px) {
   .portada a {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
 
@@ -612,34 +623,35 @@ ul.redes li a i {
 }
 
 .infoProxEvento {
-  font-size: 10vw;
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 576px) {
   .infoProxEvento {
-    font-size: 7vw;
+    font-size: 1rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .infoProxEvento {
-    font-size: 6vw;
+    font-size: 1.5rem;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .infoProxEvento {
-    font-size: 2.5vw;
+    font-size: 1rem;
   }
 }
 
 .infoProxEvento h2 {
-  font-size: 1.1rem;
+  font-size: 1em;
   color: #4e4e4e;
   font-weight: bold;
 }
 
 .infoProxEvento p {
+  font-size: 1em;
   color: #4e4e4e;
 }
 
@@ -679,7 +691,7 @@ ul.redes li a i {
 
 @media only screen and (min-width: 768px) {
   .infoProxEvento a {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
 
@@ -779,6 +791,18 @@ ul.redes li a i {
   font-weight: lighter;
 }
 
+@media only screen and (min-width: 768px) {
+  .artistasNav li a {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .artistasNav li a {
+    font-size: 1rem;
+  }
+}
+
 .artistasNav li a:hover {
   color: #a756387a;
   -webkit-transition: .5s;
@@ -837,23 +861,29 @@ ul.redes li a i {
 .descripcionRaices {
   color: white;
   position: relative;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 576px) {
   .descripcionRaices {
-    font-size: 5vw;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .descripcionRaices {
+    font-size: 1.5rem;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .descripcionRaices {
-    font-size: 2.6vw;
+    font-size: 1rem;
   }
 }
 
 .descripcionRaices h6 {
-  font-size: 1.1rem;
+  font-size: 1em;
   color: white;
   font-weight: bold;
 }
@@ -898,7 +928,7 @@ ul.redes li a i {
 
 @media only screen and (min-width: 768px) {
   .descripcionRaices a {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
 
