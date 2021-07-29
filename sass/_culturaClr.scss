@@ -101,6 +101,16 @@
 .redesArtistas a{
     color: #19191973;
     font-size: .8rem;
+    @media only screen and (min-width: 576px){
+        font-size: .8rem;
+    }  
+    @media only screen and (min-width: 768px){
+        font-size: 1.2rem;
+    } 
+    @media only screen and (min-width: 992px){
+        font-size: .8rem;
+    }       
+
 
     &:hover{
         color:$color1;

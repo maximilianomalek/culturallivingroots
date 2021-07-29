@@ -31,7 +31,17 @@
 }
 .serHost h3, .serArtista h3{
     font-family: versicaRough;
-    font-size: 2.5em;
+    font-size: 2rem;   
+    color: $color1;
+    @media only screen and (min-width: 576px){
+        font-size: 3.5rem;
+    }
+    @media only screen and (min-width: 768px){
+        font-size: 5rem;
+    }
+    @media only screen and (min-width: 992px){
+        font-size: 3.5rem;
+    }
 }
 
 .serHostTexto, .serArtistaTexto{
@@ -44,6 +54,20 @@
 }
 
 // Formulario de contacto
+
+form#myForm input, form#myForm select, form#myForm textarea{
+    font-size: 1rem;  
+    @media only screen and (min-width: 576px){
+        font-size: 1rem;
+    }
+    @media only screen and (min-width: 768px){
+        font-size: 1.5rem;
+    }
+    @media only screen and (min-width: 992px){
+        font-size: 1rem;
+    }
+
+}
    
 form fieldset{
     border: $color3 3px solid;
@@ -52,19 +76,22 @@ form fieldset{
 
 
 form legend{
-    color: $color3;
+    color: $color1;
     font-family: VersicaRough;
-    font-size: 1.5rem;
-    width: 40%;
+    font-size: 2rem;
+    width: 60%;
     text-align: center;
+    @media only screen and (min-width: 576px){
+        font-size: 3.5rem;
+    }
     @media only screen and (min-width: 768px){
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
     @media only screen and (min-width: 992px){
-        font-size: 3rem;
+        font-size: 3.5rem;
         width: 30%;
         text-align: left;
-        padding-left: 7%;
+        padding-left: 6%;
         margin-left: 50px;
     }
     
@@ -99,14 +126,14 @@ textarea {
     @include boton();
     background-color: #a75638b9;
     @media only screen and (min-width: 576px){
-        font-size: 3vw;
-    }
+        font-size: 1rem;
+    }  
     @media only screen and (min-width: 768px){
-        font-size: 2vw;
-    }
+        font-size: 1.8rem;
+    } 
     @media only screen and (min-width: 992px){
-        font-size: 1vw;
-    }
+        font-size: 1rem;
+    }       
 
     &:hover{
         @include boton-hover();
@@ -119,6 +146,7 @@ textarea {
 
 .form-control, .custom-select{
     background-color: $color2;
+    border: 1px solid #be6e5c;
 }
 
 .form-control:focus, .custom-select:focus{

@@ -38,6 +38,17 @@
     background-color: $color3;
     color: white;
     transition: 0.5s;
+    font-size: 1rem;
+    @media only screen and (min-width: 576px){
+        font-size: 1rem;
+    }
+    @media only screen and (min-width: 768px){
+        font-size: 2rem;
+    }
+    @media only screen and (min-width: 992px){
+        font-size: 1rem;
+    }
+
 
 }
 .card-header h2 button:hover{
@@ -50,4 +61,17 @@
 
 .tittleFaqs{
     color: $color1;
+}
+
+#collapseThree div a{
+    color: $color1;
+    text-decoration: none;
+        i{
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        &:hover{
+            opacity: .8;
+            transition: .5s;
+        }
 }

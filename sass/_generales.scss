@@ -86,10 +86,10 @@ body{
 
 @mixin boton() {
     display: inline-block;
-    font-size: 5vw;
+    font-size: 1rem;
     font-family: DIN-regular, 'open Sans', sans-serif;
     color: $color2;
-    padding: 1vw 1.5vw;
+    padding: .8rem 1.2rem;
     margin-bottom: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -100,7 +100,7 @@ body{
 
 @mixin boton-hover {
     color: $color1;
-    padding: 1vw 1.5vw;
+    padding: .8rem 1.2rem;
     text-decoration: none;
     font-weight: bold;
     border: 2px solid $color1;
@@ -130,8 +130,8 @@ body{
 	border-radius: 50%;
     background-color: $color1-botones;
     @media only screen and (min-width: 768px){
-        width: .8rem;
-        height: .8rem;
+        width: 3rem;
+        height: 3rem;
     }
     @media only screen and (min-width: 992px){
         width: .8rem;
@@ -154,10 +154,10 @@ body{
 .fa-angle-up{
     font-size: 1rem;
     @media only screen and (min-width: 768px){
-        font-size: 2vw;
+        font-size: 2rem;
     }
     @media only screen and (min-width: 992px){
-        font-size:2vw;
+        font-size:1.3rem;
     }
 }
 
