@@ -1,22 +1,15 @@
 /* Diseños generales */
-
-* {
+*{
     margin:0;
     padding:0;
- }
- 
-
- html{
+}
+html{
      scroll-behavior: smooth;
- }
-
+}
 body{
     font-family: DIN-regular, 'open Sans', sans-serif;
     background-color: $color2;
-    
 }
-
-
 #gridLayout{
     display: grid;
     grid-template-areas: 
@@ -26,10 +19,8 @@ body{
     "artistasClr"
     "raicesClr"
     "footer";
-
     grid-template-columns:  100%;
     grid-template-rows: 100vh auto auto auto auto 20vh;
-
     @media only screen and (min-width: 768px){
         grid-template-rows: 100vh minmax(100vh, auto) minmax(80vh, auto) auto auto 20vh;
 
@@ -42,11 +33,7 @@ body{
         grid-template-columns:  100%;
         grid-template-rows: 100vh minmax(100vh, auto) minmax(50vh, auto) auto minmax(100vh, auto) 20vh;
     }
-
 }
-
-
-
 /*Titulos*/
 .titulo{
     font-family: VersicaRough;
@@ -60,10 +47,7 @@ body{
     @media only screen and (min-width: 992px){
         font-size: 4rem;
     }
-
-
 }
-
 /*Textos*/
 .texto{
     font-family: DIN-regular, 'open Sans', sans-serif;
@@ -77,13 +61,8 @@ body{
     @media only screen and (min-width: 992px){
         font-size: 1rem;
     }
-
- 
-
 }
-
 /*Botones*/
-
 @mixin boton() {
     display: inline-block;
     font-size: 1rem;
@@ -97,7 +76,6 @@ body{
     border-radius: 100px;
     background-color: $color1-botones;
 }
-
 @mixin boton-hover {
     color: $color1;
     padding: .8rem 1.2rem;
@@ -109,12 +87,9 @@ body{
     transition: 0.5s;
     zoom: 1;    
 }
-
 .portada a i, .descripcionRaices a i, .infoProxEvento a i{
     padding-right: .5em;
 }
-
-
 .swipeUp a {
     width: 1.5rem;
     height: 1.5rem;
@@ -137,20 +112,18 @@ body{
         width: .8rem;
         height: .8rem;
     }
-        &:hover{
-            font-family: DIN-regular, 'open Sans', sans-serif;
-            color: $color1;
-            padding: 1vw;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 100%;
-            background-color: $color2;
-            transition: 0.5s;
-            border: .15vw solid $color1;
-        }
-
+    &:hover{
+        font-family: DIN-regular, 'open Sans', sans-serif;
+        color: $color1;
+        padding: 1vw;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 100%;
+        background-color: $color2;
+        transition: 0.5s;
+        border: .15vw solid $color1;
+    }
 }
-
 .fa-angle-up{
     font-size: 1rem;
     @media only screen and (min-width: 768px){

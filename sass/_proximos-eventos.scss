@@ -1,15 +1,10 @@
 /* Seccion de próximos eventos */
-
 #proximosEventos{
     background-color: $color2;
     position: relative;
     grid-area: proximosEventos;
     font-family: DIN-regular, 'open Sans', sans-serif;
 }
-
-
-
-
 .infoProxEvento{
     font-size: 1rem;
     @media only screen and (min-width: 576px){
@@ -21,7 +16,6 @@
     @media only screen and (min-width: 992px){
         font-size: 1rem;
     }
-
         h2{
             font-size: 1em;
             color: rgb(78, 78, 78);    

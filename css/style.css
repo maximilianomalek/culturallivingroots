@@ -488,6 +488,10 @@ ul.redes li a i {
   visibility: hidden;
 }
 
+.portada h1:first-child {
+  line-height: 0;
+}
+
 @media only screen and (min-width: 576px) {
   .portada h1 {
     font-size: 5rem;
@@ -1313,14 +1317,30 @@ textarea {
   }
 }
 
+.redesFooter {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (min-width: 576px) {
+  .redesFooter {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .redesFooter a {
   color: #f8f9fa;
-  font-size: .4rem;
+  font-size: .6rem;
 }
 
 @media only screen and (min-width: 576px) {
   .redesFooter a {
-    font-size: .7rem;
+    font-size: .6rem;
   }
 }
 

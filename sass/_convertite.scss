@@ -1,12 +1,9 @@
 // Cambios en barra de navegacion
-
 #portada.headerConvertite{
     position: relative;
     background-color: black;   
     font-family:DIN-regular, 'open Sans', sans-serif;
- 
 }
-
 .headerImagenConvertite{
     position: absolute;
     z-index: -300;
@@ -16,15 +13,11 @@
     background-position: center;
     background-size:cover;
     opacity: 0.4;
-
 }
-
 // Seccion Artistas vs Host
-
 .tittleConvertite{
     color: $color1;
 }
-
 .convertiteEnClr{
     background-color: $color2;
     color: #191919;
@@ -43,18 +36,14 @@
         font-size: 3.5rem;
     }
 }
-
 .serHostTexto, .serArtistaTexto{
     min-height: 150px;
 }
-
 .fa-whatsapp:hover{
     color:$color1;
     transition: 0.5s;
 }
-
 // Formulario de contacto
-
 form#myForm input, form#myForm select, form#myForm textarea{
     font-size: 1rem;  
     @media only screen and (min-width: 576px){
@@ -66,15 +55,11 @@ form#myForm input, form#myForm select, form#myForm textarea{
     @media only screen and (min-width: 992px){
         font-size: 1rem;
     }
-
-}
-   
+}   
 form fieldset{
     border: $color3 3px solid;
     width: 98%;
 }
-
-
 form legend{
     color: $color1;
     font-family: VersicaRough;
@@ -93,35 +78,25 @@ form legend{
         text-align: left;
         padding-left: 6%;
         margin-left: 50px;
-    }
-    
+    }    
 }
-
-
 form input:hover, form textarea:hover, form select:hover{
     background-color: #a7563849;
     transition: .3s;
-    
 }
-
 textarea {
     resize: none;
 }
-
 .custom-control-input:checked~.custom-control-label::before{
     border-color: #f8f9fa;
     background-color: $color1;
-
 }
-
 .custom-switch .custom-control-input:checked~.custom-control-label::after{
     background-color: $color3;
 }
-
 .custom-control.custom-switch{
     padding-bottom: 1rem;
 }
-
 .btnForm{
     @include boton();
     background-color: #a75638b9;
@@ -143,23 +118,19 @@ textarea {
         
     }
 }
-
 .form-control, .custom-select{
     background-color: $color2;
     border: 1px solid #be6e5c;
 }
-
 .form-control:focus, .custom-select:focus{
     border-color: $color1;
     box-shadow: inset 0 1px 1px #1919196e, 0 0 8px #a75638f5;
     outline: 0 none;
     background-color: $color2;
-  }
-
+}
 .custom-control-input:focus ~ .custom-control-label::before {
     border-color: $color1;
     box-shadow: inset  0 1px 1px #1919196e, 0 0 8px #a75638f5;
     outline: 0 none;
     background-color: $color2;
-
 }

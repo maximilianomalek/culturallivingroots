@@ -1,5 +1,4 @@
 /* 2 Barra de navegación */
-
 #portada{
     position: relative;
     z-index: 300;
@@ -13,8 +12,7 @@
                 position: relative; 
                 background-color: transparent;
                 height: 20vh;
-                z-index: 100;
-            
+                z-index: 100;           
             }
             &.faqs{
                 position: relative; 
@@ -25,24 +23,21 @@
             nav.navbar{
                 background-color: transparent;                      
             } 
-
         } 
-  
 }
 
 .a-imgLogo{
     margin-left: -2rem;
 
-.imgLogo{
-    width: 19vh;
-    position: relative;
-
-    @media only screen and (min-width: 992px){
-        width: 11vw;
-        position: absolute;
-        top: -3.5vw;
-    }   
-}
+    .imgLogo{
+        width: 19vh;
+        position: relative;
+        @media only screen and (min-width: 992px){
+            width: 11vw;
+            position: absolute;
+            top: -3.5vw;
+        }   
+    }
 }
 
 
@@ -73,14 +68,11 @@
             background-color: transparent;
         }
 }
-
-
 .navbar-nav{
     @media only screen and (min-width: 992px){
     margin-left: -40px;
+    }
 }
-}
-
 ul.redes li a i{
     font-size: 8vw;
     margin-right: .4rem;
@@ -92,14 +84,12 @@ ul.redes li a i{
         font-size: 1.7vw;
     }
 }
-
 .dropdown div.dropdown-menu{
     background-color: transparent;
     @media only screen and (min-width: 992px){
         background-color: rgba(0, 0, 0, 0.705);
     }
 }
-
 .dropdown-menu{
     @media only screen and (min-width: 992px){
     display: block;
@@ -113,21 +103,18 @@ ul.redes li a i{
     display: block;
     visibility: visible;
     opacity: 1;
-    transition: 1.25s;}
+    transition: 1.25s;
+    }
 }
-
 .fa-angle-down{
     font-size: 1em;
     padding-left: .4em;
 }
-
 .nav-item.dropdown:hover .fa-angle-down{
     color: $color1;
     transform: rotate(180deg);
     transition: .8s;
 }
-
-
 /* Video de portada de fondo, titulo y primera visualización */
 .contenedor-portada{
     background-color: black;
@@ -141,7 +128,6 @@ ul.redes li a i{
             overflow: hidden;
         }
 }
-
 .videoHeader1{
     display: none;
     @media only screen and (min-width: 864px){
@@ -150,22 +136,19 @@ ul.redes li a i{
         height: 100%;
         opacity: 55%; 
         object-fit: cover;
-    }
-    
+    }    
 }
 
 .videoHeader2{
-        display: block;
-        width: 100%;
-        height: 100%;
-        opacity: 55%; 
-        object-fit: cover; 
-    
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 55%; 
+    object-fit: cover;
     @media only screen and (min-width: 864px){
         display: none;
     }
 }
-
 .portada{
     text-align: center;
     position: absolute;
@@ -174,9 +157,7 @@ ul.redes li a i{
     @media only screen and (min-width: 992px){
         width: 50%;
         left: 3%;
-
     }
-
         h1{
             font-family: VersicaTextured;    
             text-align: center;
@@ -190,6 +171,9 @@ ul.redes li a i{
             animation-fill-mode: forwards;
             animation-delay: 2.5s;
             visibility: hidden;
+            &:first-child{
+                line-height: 0;
+            }
             @media only screen and (min-width: 576px){
                 font-size: 5rem;
             }
@@ -200,7 +184,6 @@ ul.redes li a i{
                 font-size: 8rem;
             }
         }
-
         h3{
             font-family: DIN-regular, 'open Sans', sans-serif;
             color: $color2;
@@ -212,8 +195,7 @@ ul.redes li a i{
             visibility: hidden; 
             width: 95%;
             margin: 20px auto 30px;
-        }
-        
+        }        
         a{
             @include boton();
             animation: 2s entrada-titulo;
@@ -221,8 +203,7 @@ ul.redes li a i{
             animation-delay:3s;
             visibility: hidden;
             &:hover{
-                @include boton-hover();
-                
+                @include boton-hover();                
             }
             @media only screen and (min-width: 576px){
                 font-size: 1.2rem;
@@ -235,8 +216,6 @@ ul.redes li a i{
             }       
         }
 }
-
-
 @keyframes entrada-titulo {
     0% {
       opacity: 0;
@@ -256,7 +235,7 @@ ul.redes li a i{
       visibility: visible;
       opacity: 1;
     }
-  }
+}
 
 
 

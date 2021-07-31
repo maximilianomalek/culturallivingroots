@@ -2,13 +2,8 @@
 #portada.headerFaqs{
     position: relative;
     background-color: black; 
-    font-family: DIN-regular, 'open Sans', sans-serif;
-   
+    font-family: DIN-regular, 'open Sans', sans-serif;  
 }
-
-
-
-
 .headerImagenFaqs{
     position: absolute;
     z-index: -300;
@@ -17,23 +12,15 @@
     background-image: url("../media/img/IMG-20190714-WA0011.jpg");
     background-position: center;
     background-size:cover;
-    opacity: 0.4;
-    
+    opacity: 0.4;    
 }
-
 // Seccion de preguntas frecuentes
-
 .faqsSection{
-    background: $color2;    
-
-
+    background: $color2;  
 }
-
-.card-header{
-    
+.card-header{    
     background-color: $color3;
 }
-
 .card-header h2 button{
     background-color: $color3;
     color: white;
@@ -48,21 +35,16 @@
     @media only screen and (min-width: 992px){
         font-size: 1rem;
     }
-
-
 }
 .card-header h2 button:hover{
     color:$color1;
 }
-
 .btn.focus, .btn:focus{
     box-shadow: 0 0 0 0.2rem $color1;
 }
-
 .tittleFaqs{
     color: $color1;
 }
-
 #collapseThree div a{
     color: $color1;
     text-decoration: none;

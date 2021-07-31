@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
-
 @each $font-versica in VersicaRough,VersicaTextured,VersicaSwashTextured,VersicaSerif,VersicaSerif-Oblique,VersicaSerif-ObliqueTracked,VersicaShadow,VersicaSwash,VersicaSwashRough,VersicaSwashShadow,VersicaTagLabel,VersicaTagLabel_1 {
     @font-face {
         font-family:#{$font-versica};
         src: url("../fonts/Versica/#{$font-versica}.ttf");
     }
 }
-
 @each $font-din in Bold,Black,Light,Medium,Regular {
     @font-face {
         font-family:DIN-#{$font-din} ;

@@ -1,6 +1,4 @@
 /* Seccion footer */
-
-
 #footer{
     background-color: $color3;
     grid-area: footer;
@@ -13,13 +11,9 @@
             width: 80px;
             height: 80px;
             object-fit: cover;
-            opacity: .2;
-        
+            opacity: .2;        
         }
-
-
 }
-
 .copyright{
     color: $color2;
     font-size: .6rem;
@@ -32,15 +26,17 @@
     @media only screen and (min-width: 992px){
         font-size: .7rem;
     }
-
-
 }
-
-.redesFooter a{
-    color: $color2;
-    font-size: .4rem;
+.redesFooter{
+    flex-direction: column;
     @media only screen and (min-width: 576px){
-        font-size: .7rem;
+        flex-direction: row;
+    } 
+    a{
+    color: $color2;
+    font-size: .6rem;
+    @media only screen and (min-width: 576px){
+        font-size: .6rem;
     }
     @media only screen and (min-width: 768px){
         font-size: .9rem;
@@ -48,11 +44,10 @@
     @media only screen and (min-width: 992px){
         font-size: .7rem;
     }
-
-
     &:hover{
         color:$color1;
         transition: 0.5s; 
+    }
     }
 }
 

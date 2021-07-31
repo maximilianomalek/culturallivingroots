@@ -1,5 +1,4 @@
 /* Seccion Roots - quienes somos */
-
 #raicesClr{
     grid-area: raicesClr;
     background-color: $color1;
@@ -11,7 +10,6 @@
         background-repeat: no-repeat;
     }
 }
-
 .descripcionRaices{
     color: white;
     position: relative;
@@ -32,8 +30,7 @@
         }
         h2{
             color: white;
-            text-align: justify;
-            
+            text-align: justify;           
         }
         p{
             color: $color2;
@@ -61,7 +58,6 @@
                 @include boton-hover();
             }
         }
-
 }
 
 
