@@ -1292,6 +1292,12 @@ textarea {
   -o-object-fit: cover;
      object-fit: cover;
   opacity: .2;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+#footer div img:hover {
+  opacity: .7;
 }
 
 .copyright {

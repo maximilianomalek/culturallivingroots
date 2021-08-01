@@ -11,7 +11,11 @@
             width: 80px;
             height: 80px;
             object-fit: cover;
-            opacity: .2;        
+            opacity: .2;
+            transition: opacity .5s;
+            &:hover{
+                opacity: .7;
+            }        
         }
 }
 .copyright{
