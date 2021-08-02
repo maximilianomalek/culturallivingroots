@@ -410,6 +410,10 @@ ul.redes li a i {
   transition: .8s;
 }
 
+nav.navbar button:focus {
+  outline: 2px auto #BE6E5C;
+}
+
 /* Video de portada de fondo, titulo y primera visualización */
 .contenedor-portada {
   background-color: black;

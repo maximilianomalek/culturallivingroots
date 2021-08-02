@@ -115,6 +115,9 @@ ul.redes li a i{
     transform: rotate(180deg);
     transition: .8s;
 }
+nav.navbar button:focus{
+    outline: 2px auto $color1;
+}
 /* Video de portada de fondo, titulo y primera visualización */
 .contenedor-portada{
     background-color: black;
@@ -236,7 +239,3 @@ ul.redes li a i{
       opacity: 1;
     }
 }
-
-
-
-
