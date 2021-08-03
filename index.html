@@ -165,35 +165,35 @@
             <!-- Reproductor de artistas -->
             <ul data-aos="fade-up" class="nav nav-tabs nav-justified align-items-lg-end artistasNav font-weight-bold flex-column flex-lg-row" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <a class="nav-link active" id="snusbrothers-tab" data-toggle="tab" href="#snusbrothers" role="tab" aria-controls="home" aria-selected="true">Snus Brothers</a>
+                  <a onclick="LoadVideo()" class="nav-link active" id="snusbrothers-tab" data-toggle="tab" href="#snusbrothers" role="tab" aria-controls="home" aria-selected="true">Snus Brothers</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="marianovillano-tab" data-toggle="tab" href="#marianovillano" role="tab" aria-controls="profile" aria-selected="false">Mariano Villano</a>
+                  <a onclick="LoadVideo()" class="nav-link" id="marianovillano-tab" data-toggle="tab" href="#marianovillano" role="tab" aria-controls="profile" aria-selected="false">Mariano Villano</a>
                 </li>
                 <li class="nav-item" role="presentation">
                   <a class="nav-link" id="victoriapalermo-tab" data-toggle="tab" href="#victoriapalermo" role="tab" aria-controls="contact" aria-selected="false">Victoria Palermo</a>
                 </li>
                 
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="matiasnaza-tab" data-toggle="tab" href="#matiasnaza" role="tab" aria-controls="contact" aria-selected="false">Matias Naza</a>
+                    <a onclick="LoadVideo()" class="nav-link" id="matiasnaza-tab" data-toggle="tab" href="#matiasnaza" role="tab" aria-controls="contact" aria-selected="false">Matias Naza</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="whitehasblues-tab" data-toggle="tab" href="#whitehasblues" role="tab" aria-controls="contact" aria-selected="false">White Has Blues</a>
+                    <a onclick="LoadVideo()" class="nav-link" id="whitehasblues-tab" data-toggle="tab" href="#whitehasblues" role="tab" aria-controls="contact" aria-selected="false">White Has Blues</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="solmontero-tab" data-toggle="tab" href="#solmontero" role="tab" aria-controls="contact" aria-selected="false">Sol Montero</a>
+                    <a onclick="LoadVideo()" class="nav-link" id="solmontero-tab" data-toggle="tab" href="#solmontero" role="tab" aria-controls="contact" aria-selected="false">Sol Montero</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="sebastianmatiassi-tab" data-toggle="tab" href="#sebastianmatiassi" role="tab" aria-controls="contact" aria-selected="false">Sebastián Matiassi</a>
+                    <a onclick="LoadVideo()" class="nav-link" id="sebastianmatiassi-tab" data-toggle="tab" href="#sebastianmatiassi" role="tab" aria-controls="contact" aria-selected="false">Sebastián Matiassi</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="covernautas-tab" data-toggle="tab" href="#covernautas" role="tab" aria-controls="contact" aria-selected="false">Covernautas</a>
+                    <a onclick="LoadVideo()" class="nav-link" id="covernautas-tab" data-toggle="tab" href="#covernautas" role="tab" aria-controls="contact" aria-selected="false">Covernautas</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="keilaespeche-tab" data-toggle="tab" href="#keilaespeche" role="tab" aria-controls="contact" aria-selected="false">Keila Espeche</a>
+                    <a onclick="LoadVideo()" class="nav-link" id="keilaespeche-tab" data-toggle="tab" href="#keilaespeche" role="tab" aria-controls="contact" aria-selected="false">Keila Espeche</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="countrygruñon-tab" data-toggle="tab" href="#countrygruñon" role="tab" aria-controls="contact" aria-selected="false">Country Gruñón</a>
+                    <a onclick="LoadVideo()" class="nav-link" id="countrygruñon-tab" data-toggle="tab" href="#countrygruñon" role="tab" aria-controls="contact" aria-selected="false">Country Gruñón</a>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent" data-aos="fade-up">
@@ -231,7 +231,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/x-o0L_fTk78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                                <iframe id="VideoPlayer1" width="560" height="315" src="https://www.youtube.com/embed/x-o0L_fTk78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
                             </div>
                         </div>
                     </div>
@@ -270,7 +270,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jy1HbPnF-lQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                                <iframe id="VideoPlayer2" width="560" height="315" src="https://www.youtube.com/embed/Jy1HbPnF-lQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
                             </div>
                         </div>
                     </div>
@@ -304,7 +304,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/nrDX65oCR2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                                <iframe id="VideoPlayer3" width="560" height="315" src="https://www.youtube.com/embed/nrDX65oCR2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
                             </div>
                         </div>
                     </div>
@@ -344,7 +344,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/CxNcW43T0JQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                                <iframe id="VideoPlayer4" width="560" height="315" src="https://www.youtube.com/embed/CxNcW43T0JQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
                             </div>
                         </div>
                     </div>
@@ -373,7 +373,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/rN5Ke3G8eQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                                <iframe id="VideoPlayer5" width="560" height="315" src="https://www.youtube.com/embed/rN5Ke3G8eQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
                             </div>
                         </div>
                     </div>
@@ -412,7 +412,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Fe8Fqbfd65w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                                <iframe id="VideoPlayer6" width="560" height="315" src="https://www.youtube.com/embed/Fe8Fqbfd65w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
                             </div>
                         </div>
                     </div>
@@ -446,7 +446,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/5mPgCnBumPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                                <iframe id="VideoPlayer7" width="560" height="315" src="https://www.youtube.com/embed/5mPgCnBumPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
                             </div>
                         </div>
                     </div>
@@ -480,7 +480,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/hG5pgqh3SzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                                <iframe id="VideoPlayer8" width="560" height="315" src="https://www.youtube.com/embed/hG5pgqh3SzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
                             </div>
                         </div>
                     </div>
@@ -519,7 +519,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/XlDTcH9WbzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                <iframe id="VideoPlayer9" width="560" height="315" src="https://www.youtube.com/embed/XlDTcH9WbzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                                 </iframe>
                             </div>
                         </div>
@@ -559,7 +559,7 @@
                         </div>
                         <div class="col-12 col-lg-8 text-center pt-3 mb-5">
                             <div class="embed-responsive embed-responsive-16by9 borderIframeYoutube rounded">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/WaE1EPqaEM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                                <iframe id="VideoPlayer10" width="560" height="315" src="https://www.youtube.com/embed/WaE1EPqaEM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
                             </div>
                         </div>
                     </div>
@@ -654,6 +654,18 @@
             }).then(() => {
                 // Auto-play started
             });
+        }
+        function LoadVideo(){
+        document.getElementById('VideoPlayer1').src="https://www.youtube.com/embed/x-o0L_fTk78?enablejsapi=1&rel=0";
+        document.getElementById('VideoPlayer2').src="https://www.youtube.com/embed/Jy1HbPnF-lQ?enablejsapi=1&rel=0";
+        document.getElementById('VideoPlayer3').src="https://www.youtube.com/embed/nrDX65oCR2o?enablejsapi=1&rel=0";
+        document.getElementById('VideoPlayer4').src="https://www.youtube.com/embed/CxNcW43T0JQ?enablejsapi=1&rel=0";
+        document.getElementById('VideoPlayer5').src="https://www.youtube.com/embed/rN5Ke3G8eQE?enablejsapi=1&rel=0";
+        document.getElementById('VideoPlayer6').src="https://www.youtube.com/embed/Fe8Fqbfd65w?enablejsapi=1&rel=0";
+        document.getElementById('VideoPlayer7').src="https://www.youtube.com/embed/5mPgCnBumPw?enablejsapi=1&rel=0";
+        document.getElementById('VideoPlayer8').src="https://www.youtube.com/embed/hG5pgqh3SzI?enablejsapi=1&rel=0";
+        document.getElementById('VideoPlayer9').src="https://www.youtube.com/embed/XlDTcH9WbzI?enablejsapi=1&rel=0";
+        document.getElementById('VideoPlayer10').src="https://www.youtube.com/embed/WaE1EPqaEM0?enablejsapi=1&rel=0";
         }
     </script>
 </body>
