@@ -1,0 +1,37 @@
+
+  #space{
+      width: 100%;
+      height: 15px;
+  }
+  #register {
+    width: 20em;
+    margin: auto;
+  }
+  #ticket {
+    background: white;
+    margin: 0 1em;
+    padding: 1em;
+    box-shadow: 0 0 5px rgba(0,0,0,.25);
+  }
+  #ticket h1 {
+    text-align: center;
+  }
+  #ticket table {
+    font-family: monospace;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  #ticket td, #ticket th {
+    padding: 5px;
+  }
+  #ticket th {
+    text-align: left;
+  }
+  #ticket td, #ticket .valores {
+    text-align: right;
+  }
+  #ticket tfoot .barraHorizontal {
+    border-top: 2px solid black;
+  }
+  
+  
